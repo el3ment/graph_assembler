@@ -19,5 +19,6 @@ class Metrics:
 	def largestContigSize(self):
 		return np.max(self.lenContigs)
 
-	def n50(self):
-		pass
+    def n50_measure(self):
+        L = 3 + 6
+        return L
