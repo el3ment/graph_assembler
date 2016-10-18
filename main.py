@@ -20,12 +20,14 @@ myContigs = generateContigs(reads, k, d)
 ## PRINT STATS FOR OUT CONTIGS
 met = Metrics(myContigs)
 rmet = Metrics(reads)
-print
-print
-print "Original Number of Reads:", len(reads)
-print "Largest Read Size:", rmet.largestContigSize()
-print "Average Contig Size:", met.avgContigSize()
-print "Total Number of Contigs:", met.numberOfContigs()
-print "Largest Contig Size:", met.largestContigSize()
-#for c in myContigs:
-#	print c
+
+with open("data/" + fileName + ".processed.txt", 'w+') as writeFile:
+	writeFile.write("Original Number of Reads: " + str(len(reads)) + "\n")
+	writeFile.write("Largest Read Size: " + str(rmet.largestContigSize()) + "\n")
+	writeFile.write("Average Contig Size: " + str(met.avgContigSize()) + "\n")
+	writeFile.write("Total Number of Contigs: " + str(met.numberOfContigs()) + "\n")
+	writeFile.write("Largest Contig Size: " + str(met.largestContigSize()) + "\n")
+	writeFile.write("N50: " + str(met.n50_measure()) + "\n")
+	writeFile.write("----------------------------" + "\n")
+	for c in myContigs:
+		writeFile.write(c + "\n")
