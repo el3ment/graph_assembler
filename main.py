@@ -27,5 +27,6 @@ print "Largest Read Size:", rmet.largestContigSize()
 print "Average Contig Size:", met.avgContigSize()
 print "Total Number of Contigs:", met.numberOfContigs()
 print "Largest Contig Size:", met.largestContigSize()
+print "N50:", met.n50()
 #for c in myContigs:
 #	print c
