@@ -2,13 +2,21 @@ import numpy as np
 
 
 class Metrics:
-
 	def __init__(self, contigs):
-		self.contigs = np.array(contigs)
-		self.lenContigs = self.convertToLengths()
 
-	def convertToLengths(self):
-		return np.array(map(lambda c: len(c), self.contigs))
+        def sortDescendingLengths(contigs):
+            return sorted(contigs, key=len, reverse=True)
+
+        def convertToLengths(contigs):
+            return np.array(map(lambda c: len(c), np.array(self.contigs)))
+
+        def getTotalLength(lenContigs):
+            return sum(lenContigs)
+
+        self.contigs = sortDescendingLengths(contigs)
+		self.lenContigs = convertToLengths(self.contigs)
+        self.totalLength = getTotalLength(self.lenContigs)
+
 
 	def avgContigSize(self):
 		return np.mean(self.lenContigs)
@@ -20,5 +28,10 @@ class Metrics:
 		return np.max(self.lenContigs)
 
     def n50_measure(self):
-        L = 3 + 6
-        return L
+        running_sum = 0
+        halfTotalLength = self.totalLength / 2.0
+        for cLength in self.lenContigs:
+            if running_sum >= halfTotalLength:
+                return cLength
+            running_sum += cLength
+        return -1
