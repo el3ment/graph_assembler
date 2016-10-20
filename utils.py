@@ -14,8 +14,8 @@ def parseFasta(file):
     return headers, reads
 
 def kmerComposition(genome, k):
-	kmers = [genome[i:i+k] for i in xrange(len(genome)-k+1)]
-	return kmers
+    kmers = [genome[i:i+k] for i in xrange(len(genome)-k+1)]
+    return kmers
 
 def Degrees(graph, start):
     if start in graph:
@@ -32,12 +32,12 @@ def Degrees(graph, start):
 def debruijnGraph(kmers):
     graph = {}
     for km in tqdm(kmers):
-        prefix = km[0:len(km)-1]
-        suffix = km[1:len(km)]
+        prefix = km[0:-1]
+        suffix = km[1:]
         if prefix in graph:
-            graph[prefix].append(suffix)
+            graph[prefix].add(suffix)
         else:
-            graph[prefix] = [suffix]
+            graph[prefix] = set([suffix])
     return graph
 
 def branchNodes(graph, node):
@@ -64,16 +64,16 @@ def contigs(reads, k):
     kmers = []
     for genome in reads:
         kmers.extend(kmerComposition(genome, k))
-	graph = debruijnGraph(kmers)
+    graph = debruijnGraph(kmers)
 
-	starts = []
-	for start in graph:
-	    inDegree, outDegree = Degrees(graph, start)
-	    if (inDegree != 1 or outDegree != 1) and outDegree > 0:
-	        starts.append(start)
+    starts = []
+    for start in graph:
+        inDegree, outDegree = Degrees(graph, start)
+        if (inDegree != 1 or outDegree != 1) and outDegree > 0:
+            starts.append(start)
 
-	contigs = []
-	for start in starts:
-	    contigs = paths(graph, start, contigs, "")
+    contigs = []
+    for start in starts:
+        contigs = paths(graph, start, contigs, "")
 
-	return contigs
+    return contigs

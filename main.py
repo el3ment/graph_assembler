@@ -2,6 +2,7 @@ from utils import contigs
 from utils import parseFasta
 from metrics import Metrics
 import sys
+sys.setrecursionlimit(1500)
 
 
 ## DECIDE KMER SIZE K AND HAMMING DISTANCE D
