@@ -5,3 +5,4 @@ assemblers/velvetOutput/*
 assemblers/edenaOutput/*
 assemblers/velvet/doc*
 .idea/*
+*.processed.txt

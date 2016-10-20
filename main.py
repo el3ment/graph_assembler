@@ -22,6 +22,7 @@ myContigs = contigs(reads, k)
 met = Metrics(myContigs)
 rmet = Metrics(reads)
 
+'''
 with open("data/" + fileName + ".processed.txt", 'w+') as writeFile:
 	writeFile.write("Original Number of Reads: " + str(len(reads)) + "\n")
 	writeFile.write("Largest Read Size: " + str(rmet.largestContigSize()) + "\n")
@@ -30,5 +31,15 @@ with open("data/" + fileName + ".processed.txt", 'w+') as writeFile:
 	writeFile.write("Largest Contig Size: " + str(met.largestContigSize()) + "\n")
 	writeFile.write("N50: " + str(met.n50_measure()) + "\n")
 	writeFile.write("----------------------------" + "\n")
+	
+'''
+print "Original Number of Reads: " + str(len(reads))
+print "Largest Read Size: " + str(rmet.largestContigSize())
+print "Average Contig Size: " + str(met.avgContigSize())
+print "Total Number of Contigs: " + str(met.numberOfContigs())
+print "Largest Contig Size: " + str(met.largestContigSize())
+print "N50: " + str(met.n50_measure())
+
+with open("data/" + fileName + ".contigs.txt", 'w+') as writeFile:
 	for c in myContigs:
 		writeFile.write(c + "\n")
