@@ -1,4 +1,4 @@
-from utils import generateContigs
+from utils import contigs
 from utils import parseFasta
 from metrics import Metrics
 import sys
@@ -6,7 +6,7 @@ import sys
 
 ## DECIDE KMER SIZE K AND HAMMING DISTANCE D
 k = int(sys.argv[2])
-d = int(sys.argv[3])
+#d = int(sys.argv[3])
 ## OPEN FILE
 fileName = sys.argv[1]
 file = open("data/" + fileName, "r+")
@@ -15,7 +15,7 @@ file = open("data/" + fileName, "r+")
 headers, reads = parseFasta(file)
 
 ## GET CONTIGS
-myContigs = generateContigs(reads, k, d)
+myContigs = contigs(reads, k)
 
 ## PRINT STATS FOR OUT CONTIGS
 met = Metrics(myContigs)
