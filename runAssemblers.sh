@@ -21,8 +21,8 @@ for file in $( ls data/*.fasta ); do
     assemblers/velvet/velveth assemblers/velvetOutput/$dir/$k $k -short $file > /dev/null
     tail -1 <(assemblers/velvet/velvetg assemblers/velvetOutput/$dir/$k)
 
-    # echo "mkdir -p assemblers/edenaOutput/$dir/ && assemblers/edena/bin/edena -r $file -p assemblers/edenaOutput/$dir/"
-    # echo "assemblers/edena/bin/edena -e assemblers/edenaOutput/$dir/.ovl -p assemblers/edenaOutput/$dir/"
+    mkdir -p assemblers/edenaOutput/$dir/ && assemblers/edena/bin/edena -r $file -p assemblers/edenaOutput/$dir/
+    assemblers/edena/bin/edena -e assemblers/edenaOutput/$dir/.ovl -p assemblers/edenaOutput/$dir/
 
 done
 
