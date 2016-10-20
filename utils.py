@@ -13,32 +13,9 @@ def parseFasta(file):
         everyOther += 1
     return headers, reads
 
-def mutations(word, hamming_distance, charset='ATCG'):
-    # this enumerates all the positions in word
-    #print word
-    mutationsSet = set([word])
-    for indices in itertools.combinations( range( len( word ) ), hamming_distance ):
-        #print "index:", indices
-        for replacements in itertools.product(charset, repeat=hamming_distance):
-            #print "\treplacements:", replacements
-            mutation = list(word)
-            for index, replacement in zip( indices, replacements ):
-                #print "\t\t", index, ":", replacement
-                mutation[ index ] = replacement
-                #print "\t\t\t", mutation
-            mutationsSet.add("".join(mutation))
-    return mutationsSet
-
 def kmerComposition(genome, k):
 	kmers = [genome[i:i+k] for i in xrange(len(genome)-k+1)]
 	return kmers
-
-def kmersWithMismatches(genome, k, hamming_distance):
-    kmers = kmerComposition(genome, k)
-    finalKmers = []
-    for km in tqdm(kmers):
-        finalKmers.extend(mutations(km, hamming_distance))
-    return finalKmers
 
 def Degrees(graph, start):
     if start in graph:
@@ -83,8 +60,10 @@ def paths(graph, start, contigs, toAppend):
             contigs = paths(graph, node, contigs, toAppend)
     return contigs
                     
-def contigs(genome, k, d):
-	kmers = kmersWithMismatches(genome, k, d)
+def contigs(reads, k):
+    kmers = []
+    for genome in reads:
+        kmers.extend(kmerComposition(genome, k))
 	graph = debruijnGraph(kmers)
 
 	starts = []
@@ -98,9 +77,3 @@ def contigs(genome, k, d):
 	    contigs = paths(graph, start, contigs, "")
 
 	return contigs
-
-def generateContigs(reads, k, d):
-    myContigs = []
-    for r in tqdm(reads):
-        myContigs.extend(contigs(r, k, d))
-    return myContigs
