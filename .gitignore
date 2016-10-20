@@ -1,4 +1,7 @@
 *.pyc
 assemblers/edena/bin
 assemblers/velvet/velvet*
+assemblers/velvetOutput/*
+assemblers/edenaOutput/*
+assemblers/velvet/doc*
 .idea/*

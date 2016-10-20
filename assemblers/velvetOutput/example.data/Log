@@ -1,5 +1,5 @@
-Thu Oct 20 15:04:13 2016
- /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvet/velveth /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvetOutput/example.data 21 -short /Users/pjtatlow/projects/bio365/graph_assembler/data/example.data.fasta
+Thu Oct 20 15:43:52 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.data/
 Version 1.2.10
 Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
 This is free software; see the source for copying conditions.  There is NO
@@ -8,8 +8,8 @@ Compilation settings:
 CATEGORIES = 2
 MAXKMERLENGTH = 31
 
-Thu Oct 20 15:04:13 2016
- /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvet/velvetg /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvetOutput/example.data/
+Thu Oct 20 15:44:15 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.data/
 Version 1.2.10
 Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
 This is free software; see the source for copying conditions.  There is NO
@@ -18,4 +18,33 @@ Compilation settings:
 CATEGORIES = 2
 MAXKMERLENGTH = 31
 
-Final graph has 1 nodes and n50 of 111, max 111, total 111, using 0/9 reads
+Thu Oct 20 15:45:59 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.data/
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Thu Oct 20 15:46:38 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.data/
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Thu Oct 20 15:46:42 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.data/
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+

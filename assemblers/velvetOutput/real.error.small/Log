@@ -1,5 +1,5 @@
-Thu Oct 20 14:40:04 2016
- /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvet/velveth /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvetOutput/real.error.small 21 -short ~/projects/bio365/graph_assembler/data/real.error.small.fasta
+Thu Oct 20 15:43:52 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/real.error.small/
 Version 1.2.10
 Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
 This is free software; see the source for copying conditions.  There is NO
@@ -8,8 +8,38 @@ Compilation settings:
 CATEGORIES = 2
 MAXKMERLENGTH = 31
 
-Thu Oct 20 14:40:04 2016
- /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvet/velvetg /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/velvetOutput/real.error.small
+Thu Oct 20 15:44:15 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/real.error.small/
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Thu Oct 20 15:45:59 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/real.error.small/
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Thu Oct 20 15:46:38 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/real.error.small/
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Thu Oct 20 15:46:42 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/real.error.small/
 Version 1.2.10
 Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
 This is free software; see the source for copying conditions.  There is NO
