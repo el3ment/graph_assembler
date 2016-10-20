@@ -1,2 +1,4 @@
 *.pyc
+assemblers/edena/bin
+assemblers/velvet/velvet*
 .idea/*

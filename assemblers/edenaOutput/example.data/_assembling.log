@@ -1,0 +1,36 @@
+[10/20/2016:15:04:13] Edena v3.131028
+[10/20/2016:15:04:13] argv[1] -e
+[10/20/2016:15:04:13] argv[2] /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/edenaOutput/example.data/.ovl
+[10/20/2016:15:04:13] argv[3] -p
+[10/20/2016:15:04:13] argv[4] /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/edenaOutput/example.data/
+[10/20/2016:15:04:13] reads length:             100
+[10/20/2016:15:04:13] number of reads:          9
+[10/20/2016:15:04:13] number of nodes:          9
+[10/20/2016:15:04:13] number of edges:          8
+[10/20/2016:15:04:13] minimum overlap size:     50
+[10/20/2016:15:04:13] Graph has been condensed to 1 nodes
+[10/20/2016:15:04:13] Removed orphan non-usable nodes: 1 (100.0% of the total number of reads)
+[10/20/2016:15:04:13] Removed dead-ends: 0 (0.0% of the total number of reads)
+[10/20/2016:15:04:13] Graph has been condensed to 0 nodes
+[10/20/2016:15:04:13] Contextual cleaning cleared 0 incoherent edges
+[10/20/2016:15:04:13] Graph has been condensed to 0 nodes
+[10/20/2016:15:04:13] Removed dead-ends: 0 (0.0% of the total number of reads)
+[10/20/2016:15:04:13] Graph has been condensed to 0 nodes
+[10/20/2016:15:04:13] Removed orphan non-usable nodes: 0
+[10/20/2016:15:04:13] Graph has been condensed to 0 nodes
+[10/20/2016:15:04:13] Nodes coverage sampling:
+[10/20/2016:15:04:13] mean: 0.0
+[10/20/2016:15:04:13] median: 0.0
+[10/20/2016:15:04:13] 1st percentile 0.0
+[10/20/2016:15:04:13] 1st decile 0.0
+[10/20/2016:15:04:13] sd: 0.0
+[10/20/2016:15:04:13] minimum required coverage automatically set to: 0.0
+[10/20/2016:15:04:13] target size (roughly) estimated as 0
+[10/20/2016:15:04:13] Resolved bubbles: 0
+[10/20/2016:15:04:13] Graph has been condensed to 0 nodes
+[10/20/2016:15:04:13] Suspicious nodes removed: 0
+[10/20/2016:15:04:13] Graph has been condensed to 0 nodes
+[10/20/2016:15:04:13] Number of contigs:  0
+[10/20/2016:15:04:13] Assembly breaks occurred due to:
+[10/20/2016:15:04:13] non-resolved ambiguity: 0
+[10/20/2016:15:04:13] dead-end: 0

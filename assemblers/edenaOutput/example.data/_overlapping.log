@@ -1,0 +1,20 @@
+[10/20/2016:15:04:13] Edena v3.131028
+[10/20/2016:15:04:13] argv[1] -r
+[10/20/2016:15:04:13] argv[2] /Users/pjtatlow/projects/bio365/graph_assembler/data/example.data.fasta
+[10/20/2016:15:04:13] argv[3] -p
+[10/20/2016:15:04:13] argv[4] /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/edenaOutput/example.data/
+[10/20/2016:15:04:13] Number of reads upper bound estimation: 10
+[10/20/2016:15:04:13] Opening file:
+[10/20/2016:15:04:13] /Users/pjtatlow/projects/bio365/graph_assembler/data/example.data.fasta
+[10/20/2016:15:04:13] Loaded: 9, discarded: 0
+[10/20/2016:15:04:13] Reads length: 100
+[10/20/2016:15:04:13] Number of reads: 9
+[10/20/2016:15:04:13] Number of distinct sequences: 9
+[10/20/2016:15:04:13] Average reads redundancy: 1.0
+[10/20/2016:15:04:13] Initializing prefix tables
+[10/20/2016:15:04:13] Minimum overlaps size: 50
+[10/20/2016:15:04:13] Start computing overlaps
+[10/20/2016:15:04:13] Done computing overlaps
+[10/20/2016:15:04:13] Number of nodes: 9
+[10/20/2016:15:04:13] Number of edges: 8
+[10/20/2016:15:04:13] OSG written to file /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/edenaOutput/example.data/.ovl

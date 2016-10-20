@@ -1,0 +1,41 @@
+[10/20/2016:15:02:04] Edena v3.131028
+[10/20/2016:15:02:04] argv[1] -e
+[10/20/2016:15:02:04] argv[2] /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/edenaOutput/real.error.small/.ovl
+[10/20/2016:15:02:04] argv[3] -p
+[10/20/2016:15:02:04] argv[4] /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/edenaOutput/real.error.small/
+[10/20/2016:15:02:04] reads length:             100
+[10/20/2016:15:02:04] number of reads:          102
+[10/20/2016:15:02:04] number of nodes:          100
+[10/20/2016:15:02:04] number of edges:          93
+[10/20/2016:15:02:04] minimum overlap size:     50
+[10/20/2016:15:02:04] Graph has been condensed to 21 nodes
+[10/20/2016:15:02:04] Removed orphan non-usable nodes: 6 (6.9% of the total number of reads)
+[10/20/2016:15:02:04] Removed dead-ends: 8 (19.6% of the total number of reads)
+[10/20/2016:15:02:04] Graph has been condensed to 2 nodes
+[10/20/2016:15:02:04] Contextual cleaning cleared 0 incoherent edges
+[10/20/2016:15:02:04] Graph has been condensed to 2 nodes
+[10/20/2016:15:02:04] Removed dead-ends: 0 (0.0% of the total number of reads)
+[10/20/2016:15:02:04] Graph has been condensed to 2 nodes
+[10/20/2016:15:02:04] Removed orphan non-usable nodes: 0
+[10/20/2016:15:02:04] Graph has been condensed to 2 nodes
+[10/20/2016:15:02:04] Nodes coverage sampling:
+[10/20/2016:15:02:04] mean: 9.5
+[10/20/2016:15:02:04] median: 9.5
+[10/20/2016:15:02:04] 1st percentile 0.0
+[10/20/2016:15:02:04] 1st decile 0.0
+[10/20/2016:15:02:04] sd: 0.0
+[10/20/2016:15:02:04] minimum required coverage automatically set to: 4.8
+[10/20/2016:15:02:04] target size (roughly) estimated as 818
+[10/20/2016:15:02:04] Resolved bubbles: 0
+[10/20/2016:15:02:04] Graph has been condensed to 2 nodes
+[10/20/2016:15:02:04] Suspicious nodes removed: 0
+[10/20/2016:15:02:04] Graph has been condensed to 2 nodes
+[10/20/2016:15:02:04] Number of contigs:  1
+[10/20/2016:15:02:04] sum:  754 bp 
+[10/20/2016:15:02:04] N50:  754 bp 
+[10/20/2016:15:02:04] mean: 754 bp 
+[10/20/2016:15:02:04] max:  754 bp 
+[10/20/2016:15:02:04] min:  754 bp 
+[10/20/2016:15:02:04] Assembly breaks occurred due to:
+[10/20/2016:15:02:04] non-resolved ambiguity: 0
+[10/20/2016:15:02:04] dead-end: 2
