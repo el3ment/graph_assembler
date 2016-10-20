@@ -1,30 +1,27 @@
 import numpy as np
-
-
 class Metrics:
-	def __init__(self, contigs):
+    def __init__(self, contigs):
+        self.contigs = contigs
+        self.contigs = self.sortDescendingLengths()
+        self.lenContigs = self.convertToLengths()
+        self.totalLength = self.getTotalLength()
 
-        def sortDescendingLengths(contigs):
-            return sorted(contigs, key=len, reverse=True)
+    def sortDescendingLengths(self):
+        return sorted(self.contigs, key=len, reverse=True)
 
-        def convertToLengths(contigs):
-            return np.array(map(lambda c: len(c), np.array(self.contigs)))
+    def convertToLengths(self):
+        return np.array(map(lambda c: len(c), np.array(self.contigs)))
 
-        def getTotalLength(lenContigs):
-            return sum(lenContigs)
+    def getTotalLength(self):
+        return sum(self.lenContigs)
 
-        self.contigs = sortDescendingLengths(contigs)
-		self.lenContigs = convertToLengths(self.contigs)
-        self.totalLength = getTotalLength(self.lenContigs)
-
-
-	def avgContigSize(self):
+    def avgContigSize(self):
 		return np.mean(self.lenContigs)
 
-	def numberOfContigs(self):
+    def numberOfContigs(self):
 		return len(self.contigs)
 
-	def largestContigSize(self):
+    def largestContigSize(self):
 		return np.max(self.lenContigs)
 
     def n50_measure(self):
