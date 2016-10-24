@@ -18,15 +18,17 @@ headers, reads = parseFasta(file)
 rmet = Metrics(reads)
 
 ## GET CONTIGS
-threshold_calcs = [(k, Metrics(contigs(reads, k, 0)).largestContigSize()) for k in (range(start, rmet.largestContigSize()))]
-ks, ms = zip(*threshold_calcs)
 
-print ms
+all_metrics, all_contigs, ks, thresholds  = [], [], [], []
+for k in tqdm(range(start, rmet.largestContigSize())):
+    iteration_contigs, threshold = contigs(reads, k)
+    all_contigs.append(iteration_contigs)
+    all_metrics.append(Metrics(iteration_contigs).largestContigSize())
+    ks.append(k)
+    thresholds.append(threshold)    
 
-
-
-# myContigs = contigs(reads, k, threshold)
-# met = Metrics(myContigs)
+_, best_contigs, best_k, best_threshold = max(zip(all_metrics, all_contigs, ks, thresholds))
+met = Metrics(best_contigs)
 
 # '''
 # with open("data/" + fileName + ".processed.txt", 'w+') as writeFile:
@@ -39,16 +41,17 @@ print ms
 # 	writeFile.write("----------------------------" + "\n")
 	
 # '''
-# print 
-# print "Original Number of Reads: " + str(len(reads))
-# print "Largest Read Size: " + str(rmet.largestContigSize())
-# print "Average Contig Size: " + str(met.avgContigSize())
-# print "Total Number of Contigs: " + str(met.numberOfContigs())
-# print "Largest Contig Size: " + str(met.largestContigSize())
-# print "N50: " + str(met.n50_measure())
-# print "Best Thresholds: " + str(threshold)
-# print "Best k:", k
 
-# with open("data/" + fileName + ".contigs.txt", 'w+') as writeFile:
-# 	for c in myContigs:
-# 		writeFile.write(c + "\n")
+print 
+print "Original Number of Reads: " + str(len(reads))
+print "Largest Read Size: " + str(rmet.largestContigSize())
+print "Average Contig Size: " + str(met.avgContigSize())
+print "Total Number of Contigs: " + str(met.numberOfContigs())
+print "Largest Contig Size: " + str(met.largestContigSize())
+print "N50: " + str(met.n50_measure())
+print "Best Thresholds: ", best_threshold
+print "Best k:", best_k
+
+with open("data/" + fileName + ".contigs.txt", 'w+') as writeFile:
+ 	for c in best_contigs:
+ 		writeFile.write(c + "\n")

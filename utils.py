@@ -62,24 +62,29 @@ def paths(graph, start, contigs, toAppend):
             contigs = paths(graph, node, contigs, toAppend)
     return contigs
 
-def filterKmers(kmers, threshold):
+def filterKmers(kmers):
+    threshold = int(otsu([x[1] for x in Counter(kmers).items()], 100))
 
-    np.set_printoptions(linewidth=300)
+    return [x[0] for x in Counter(kmers).items() if x[1] > threshold], threshold
 
-
-    for x in Counter([x[1] for x in Counter(kmers).items()]).items():
-        print len(kmers[0]), x[1] / float(len(kmers)), x
-
-    hist = np.histogram([x[1] for x in Counter(kmers).items()], bins=300)
-    print len(kmers[0]), hist[0][1:21]
-
-    return [x[0] for x in Counter(kmers).items() if x[1] > threshold]
+def otsu(image, bins=255):
+    histogram, edges = np.histogram(image, bins)
+    n1, n2, u1, u2 = 0.0, histogram.sum(), 0.0, histogram.mean()
+    thresholds = []
+    for t in range(bins):
+        thresholds.append(((n1 * n2 * (u1 - u2)**2), t))
+        u1 = (u1 * n1 + histogram[t] * t)/(n1 + histogram[t])
+        u2 = (u2 * n2 - histogram[t] * t)/(n2 + histogram[t])
+        n1 += histogram[t]
+        n2 -= histogram[t]
+        
+    return edges[max(thresholds)[1]]
                     
-def contigs(reads, k, threshold):
+def contigs(reads, k):
     kmers = []
     for genome in reads:
         kmers.extend(kmerComposition(genome, k))
-    kmers = filterKmers(kmers, threshold)
+    kmers, threshold = filterKmers(kmers)
 
     graph = debruijnGraph(kmers)
     starts = []
@@ -90,4 +95,4 @@ def contigs(reads, k, threshold):
     contigs = []
     for start in starts:
         contigs = paths(graph, start, contigs, "")
-    return contigs
+    return contigs, threshold
