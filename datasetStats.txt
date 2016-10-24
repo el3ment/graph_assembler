@@ -1,0 +1,51 @@
+"example.data.fasta"
+Original Number of Reads: 9
+Largest Read Size: 100
+Average Contig Size: 99.0
+Total Number of Contigs: 2
+Largest Contig Size: 100
+N50: 98
+Best Thresholds:  1
+Best k: 98
+
+"synthetic.example.noerror.small.fasta"
+Original Number of Reads: 48
+Largest Read Size: 100
+Average Contig Size: 80.7142857143
+Total Number of Contigs: 7
+Largest Contig Size: 109
+N50: 75
+Best Thresholds:  4
+Best k: 71
+
+"synthetic.noerror.small.fasta"
+Original Number of Reads: 93
+Largest Read Size: 35
+Average Contig Size: 27.5
+Total Number of Contigs: 8
+Largest Contig Size: 38
+N50: 24
+Best Thresholds:  6
+Best k: 23
+
+"synthetic.noerror.large.fasta"
+Original Number of Reads: 780
+Largest Read Size: 50
+Average Contig Size: 36.7518796992
+Total Number of Contigs: 133
+Largest Contig Size: 356
+N50: 53
+Best Thresholds:  4
+Best k: 14
+
+"real.error.small.fasta"
+Original Number of Reads: 102
+Largest Read Size: 100
+Average Contig Size: 64.25
+Total Number of Contigs: 12
+Largest Contig Size: 106
+N50: 54
+Best Thresholds:  6
+Best k: 50
+
+
