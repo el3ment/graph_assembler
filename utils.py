@@ -64,7 +64,6 @@ def paths(graph, start, contigs, toAppend):
 
 def filterKmers(kmers):
     threshold = int(otsu([x[1] for x in Counter(kmers).items()], 100))
-
     return [x[0] for x in Counter(kmers).items() if x[1] > threshold], threshold
 
 def otsu(image, bins=255):
@@ -96,3 +95,23 @@ def contigs(reads, k):
     for start in starts:
         contigs = paths(graph, start, contigs, "")
     return contigs, threshold
+
+def filterKmersGivenThreshold(kmers, threshold):
+    return [x[0] for x in Counter(kmers).items() if x[1] > threshold]
+
+def contigsSpecifiedThreshold(reads, k, threshold):
+    kmers = []
+    for genome in reads:
+        kmers.extend(kmerComposition(genome, k))
+    kmers = filterKmersGivenThreshold(kmers, threshold)
+
+    graph = debruijnGraph(kmers)
+    starts = []
+    for start in graph:
+        inDegree, outDegree = Degrees(graph, start)
+        if (inDegree != 1 or outDegree != 1) and outDegree > 0:
+            starts.append(start)
+    contigs = []
+    for start in tqdm(starts):
+        contigs = paths(graph, start, contigs, "")
+    return contigs

@@ -5,8 +5,18 @@ Average Contig Size: 99.0
 Total Number of Contigs: 2
 Largest Contig Size: 100
 N50: 98
-Best Thresholds:  1
+Best Thresholds: 1
 Best k: 98
+------------------------------
+Original Number of Reads: 9
+Largest Read Size: 100
+Average Contig Size: 137.0
+Total Number of Contigs: 1
+Largest Contig Size: 137
+N50: -1
+Best Thresholds: 0
+Best k: 15
+
 
 "synthetic.example.noerror.small.fasta"
 Original Number of Reads: 48
@@ -15,8 +25,18 @@ Average Contig Size: 80.7142857143
 Total Number of Contigs: 7
 Largest Contig Size: 109
 N50: 75
-Best Thresholds:  4
+Best Thresholds: 4
 Best k: 71
+------------------------------
+Original Number of Reads: 48
+Largest Read Size: 100
+Average Contig Size: 593.0
+Total Number of Contigs: 1
+Largest Contig Size: 593
+N50: -1
+Best Thresholds: 0
+Best k: 29
+
 
 "synthetic.noerror.small.fasta"
 Original Number of Reads: 93
@@ -25,8 +45,27 @@ Average Contig Size: 27.5
 Total Number of Contigs: 8
 Largest Contig Size: 38
 N50: 24
-Best Thresholds:  6
+Best Thresholds: 6
 Best k: 23
+------------------------------
+Original Number of Reads: 93
+Largest Read Size: 35
+Average Contig Size: 72.0
+Total Number of Contigs: 6
+Largest Contig Size: 156
+N50: 55
+Best Thresholds: 0
+Best k: 25
+------------------------------
+Original Number of Reads: 93 (Manual Contigs from this one)
+Largest Read Size: 35
+Average Contig Size: 94.0
+Total Number of Contigs: 4
+Largest Contig Size: 148
+N50: 90
+Best Thresholds: 0
+Best k: 21
+
 
 "synthetic.noerror.large.fasta"
 Original Number of Reads: 780
@@ -35,8 +74,18 @@ Average Contig Size: 36.7518796992
 Total Number of Contigs: 133
 Largest Contig Size: 356
 N50: 53
-Best Thresholds:  4
+Best Thresholds: 4
 Best k: 14
+------------------------------
+Original Number of Reads: 780
+Largest Read Size: 50
+Average Contig Size: 781.4
+Total Number of Contigs: 5
+Largest Contig Size: 1593
+N50: 657
+Best Thresholds: 0
+Best k: 28
+
 
 "real.error.small.fasta"
 Original Number of Reads: 102
@@ -45,7 +94,16 @@ Average Contig Size: 64.25
 Total Number of Contigs: 12
 Largest Contig Size: 106
 N50: 54
-Best Thresholds:  6
+Best Thresholds: 6
 Best k: 50
+------------------------------
+Original Number of Reads: 102
+Largest Read Size: 100
+Average Contig Size: 1048.0
+Total Number of Contigs: 1
+Largest Contig Size: 1048
+N50: -1
+Best Thresholds: 2
+Best k: 31
 
 

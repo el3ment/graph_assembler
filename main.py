@@ -49,7 +49,7 @@ print "Average Contig Size: " + str(met.avgContigSize())
 print "Total Number of Contigs: " + str(met.numberOfContigs())
 print "Largest Contig Size: " + str(met.largestContigSize())
 print "N50: " + str(met.n50_measure())
-print "Best Thresholds: ", best_threshold
+print "Best Thresholds:", best_threshold
 print "Best k:", best_k
 
 with open("data/" + fileName + ".contigs.txt", 'w+') as writeFile:
