@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libgraph_support.a  CMakeFiles/graph_support.dir/components/connected_component.cpp.o CMakeFiles/graph_support.dir/paths/bidirectional_path.cpp.o CMakeFiles/graph_support.dir/graph_support/scaff_supplementary.cpp.o CMakeFiles/graph_support.dir/graph_alignment/edge_index_refiller.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libgraph_support.a
