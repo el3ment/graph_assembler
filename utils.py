@@ -107,7 +107,7 @@ def contigsSpecifiedThreshold(reads, k, threshold):
 
     graph = debruijnGraph(kmers)
     starts = []
-    for start in graph:
+    for start in tqdm(graph):
         inDegree, outDegree = Degrees(graph, start)
         if (inDegree != 1 or outDegree != 1) and outDegree > 0:
             starts.append(start)
