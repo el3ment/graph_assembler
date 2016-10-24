@@ -10,7 +10,10 @@ class Metrics:
         return sorted(self.contigs, key=len, reverse=True)
 
     def convertToLengths(self):
-        return np.array(map(lambda c: len(c), np.array(self.contigs)))
+    	if len(self.contigs) > 0:
+        	return np.array(map(lambda c: len(c), np.array(self.contigs)))
+        else:
+        	return np.array([0])
 
     def getTotalLength(self):
         return sum(self.lenContigs)
