@@ -19,3 +19,24 @@ CATEGORIES = 2
 MAXKMERLENGTH = 31
 
 Final graph has 456 nodes and n50 of 237, max 1474, total 30084, using 0/4675 reads
+Mon Oct 24 15:38:58 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/real.error.large/29 29 -short data/real.error.large.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Mon Oct 24 15:38:58 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/real.error.large/29
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 456 nodes and n50 of 237, max 1474, total 30084, using 0/4675 reads

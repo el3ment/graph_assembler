@@ -1,0 +1,41 @@
+[10/21/2016:13:49:30] Edena v3.131028
+[10/21/2016:13:49:30] argv[1] -e
+[10/21/2016:13:49:30] argv[2] assemblers/edenaOutput/synthetic.example.noerror.small/.ovl
+[10/21/2016:13:49:30] argv[3] -p
+[10/21/2016:13:49:30] argv[4] assemblers/edenaOutput/synthetic.example.noerror.small/
+[10/21/2016:13:49:30] reads length:             100
+[10/21/2016:13:49:30] number of reads:          48
+[10/21/2016:13:49:30] number of nodes:          45
+[10/21/2016:13:49:30] number of edges:          44
+[10/21/2016:13:49:30] minimum overlap size:     50
+[10/21/2016:13:49:30] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:30] Removed orphan non-usable nodes: 0 (0.0% of the total number of reads)
+[10/21/2016:13:49:30] Removed dead-ends: 0 (0.0% of the total number of reads)
+[10/21/2016:13:49:30] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:30] Contextual cleaning cleared 0 incoherent edges
+[10/21/2016:13:49:30] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:30] Removed dead-ends: 0 (0.0% of the total number of reads)
+[10/21/2016:13:49:30] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:30] Removed orphan non-usable nodes: 0
+[10/21/2016:13:49:30] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:30] Nodes coverage sampling:
+[10/21/2016:13:49:30] mean: 9.7
+[10/21/2016:13:49:30] median: 9.7
+[10/21/2016:13:49:30] 1st percentile 0.0
+[10/21/2016:13:49:30] 1st decile 0.0
+[10/21/2016:13:49:30] sd: 0.0
+[10/21/2016:13:49:30] minimum required coverage automatically set to: 4.9
+[10/21/2016:13:49:30] target size (roughly) estimated as 494
+[10/21/2016:13:49:30] Resolved bubbles: 0
+[10/21/2016:13:49:30] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:30] Suspicious nodes removed: 0
+[10/21/2016:13:49:30] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:30] Number of contigs:  1
+[10/21/2016:13:49:30] sum:  489 bp 
+[10/21/2016:13:49:30] N50:  489 bp 
+[10/21/2016:13:49:30] mean: 489 bp 
+[10/21/2016:13:49:30] max:  489 bp 
+[10/21/2016:13:49:30] min:  489 bp 
+[10/21/2016:13:49:30] Assembly breaks occurred due to:
+[10/21/2016:13:49:30] non-resolved ambiguity: 0
+[10/21/2016:13:49:30] dead-end: 2

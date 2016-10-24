@@ -1,0 +1,10 @@
+>assemblers/edenaOutput/synthetic.noerror.large/_1 size=2191 cov=10.4651 node:1 ~~ 
+1
+>assemblers/edenaOutput/synthetic.noerror.large/_2 size=694 cov=9.60983 node:2 ~~ 
+2
+>assemblers/edenaOutput/synthetic.noerror.large/_3 size=385 cov=10.221 node:5 ~~ 
+5
+>assemblers/edenaOutput/synthetic.noerror.large/_4 size=363 cov=10.0575 node:4 |~ 
+4
+>assemblers/edenaOutput/synthetic.noerror.large/_5 size=133 cov=11.8182 node:3 ~| 
+3

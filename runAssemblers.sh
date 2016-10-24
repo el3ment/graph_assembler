@@ -24,9 +24,9 @@ for file in $( ls data/*.fasta ); do
     tail -1 <(assemblers/velvet/velvetg assemblers/velvetOutput/$dir/$k)
     python getStats.py assemblers/velvetOutput/$dir/$k/stats.txt
 
-    mkdir -p assemblers/spadesOutput/$dir/$k/
+#    mkdir -p assemblers/spadesOutput/$dir/$k/
 
-    python assemblers/spades/bin/spades.py -k $k -s $file --only-assembler -o assemblers/spadesOutput/$dir/$k -t 2 -m 2
+#    python assemblers/spades/bin/spades.py -k $k -s $file --only-assembler -o assemblers/spadesOutput/$dir/$k -t 2 -m 2
    
 #    mkdir -p assemblers/edenaOutput/$dir/
 #    assemblers/edena/bin/edena -r $file -p assemblers/edenaOutput/$dir/ > /dev/null

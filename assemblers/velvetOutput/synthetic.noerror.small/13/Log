@@ -19,3 +19,45 @@ CATEGORIES = 2
 MAXKMERLENGTH = 31
 
 Final graph has 4 nodes and n50 of 82, max 120, total 295, using 0/93 reads
+Mon Oct 24 15:37:52 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/synthetic.noerror.small/13 13 -short data/synthetic.noerror.small.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Mon Oct 24 15:37:52 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/synthetic.noerror.small/13
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 4 nodes and n50 of 82, max 120, total 295, using 0/93 reads
+Mon Oct 24 15:38:03 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/synthetic.noerror.small/13 13 -short data/synthetic.noerror.small.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Mon Oct 24 15:38:03 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/synthetic.noerror.small/13
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 4 nodes and n50 of 82, max 120, total 295, using 0/93 reads

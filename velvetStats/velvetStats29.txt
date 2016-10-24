@@ -1,0 +1,49 @@
+data/example.data.fasta
+
+velvet
+Final graph has 1 nodes and n50 of 103, max 103, total 103, using 0/9 reads
+Average contig size 103.0
+
+
+data/example.solution.fasta
+
+velvet
+Final graph has 0 nodes and n50 of 0, max 0, total 0, using 0/1 reads
+No contigs found
+
+
+data/real.error.large.fasta
+
+velvet
+Final graph has 456 nodes and n50 of 237, max 1474, total 30084, using 0/4675 reads
+Average contig size 65.9736842105
+
+
+data/real.error.small.fasta
+
+velvet
+Final graph has 4 nodes and n50 of 944, max 944, total 1070, using 0/102 reads
+Average contig size 267.5
+
+
+data/synthetic.example.noerror.small.fasta
+
+velvet
+Final graph has 1 nodes and n50 of 556, max 556, total 556, using 0/48 reads
+Average contig size 556.0
+
+
+data/synthetic.noerror.large.fasta
+
+velvet
+Final graph has 11 nodes and n50 of 630, max 1014, total 3729, using 0/780 reads
+Average contig size 339.0
+
+
+data/synthetic.noerror.small.fasta
+
+velvet
+Final graph has 0 nodes and n50 of 0, max 0, total 0, using 0/93 reads
+No contigs found
+
+

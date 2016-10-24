@@ -1,0 +1,20 @@
+[10/21/2016:13:49:29] Edena v3.131028
+[10/21/2016:13:49:29] argv[1] -r
+[10/21/2016:13:49:29] argv[2] data/example.solution.fasta
+[10/21/2016:13:49:29] argv[3] -p
+[10/21/2016:13:49:29] argv[4] assemblers/edenaOutput/example.solution/
+[10/21/2016:13:49:29] Number of reads upper bound estimation: 2
+[10/21/2016:13:49:29] Opening file:
+[10/21/2016:13:49:29] data/example.solution.fasta
+[10/21/2016:13:49:29] Loaded: 1, discarded: 0
+[10/21/2016:13:49:29] Reads length: 137
+[10/21/2016:13:49:29] Number of reads: 1
+[10/21/2016:13:49:29] Number of distinct sequences: 1
+[10/21/2016:13:49:29] Average reads redundancy: 1.0
+[10/21/2016:13:49:29] Initializing prefix tables
+[10/21/2016:13:49:29] Minimum overlaps size: 68
+[10/21/2016:13:49:29] Start computing overlaps
+[10/21/2016:13:49:29] Done computing overlaps
+[10/21/2016:13:49:29] Number of nodes: 1
+[10/21/2016:13:49:29] Number of edges: 0
+[10/21/2016:13:49:29] OSG written to file assemblers/edenaOutput/example.solution/.ovl

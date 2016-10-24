@@ -1,0 +1,50 @@
+>assemblers/edenaOutput/real.error.large/_1 size=2644 cov=15.2257
+3	1	2713	l=2713	cov=15.2257
+>assemblers/edenaOutput/real.error.large/_2 size=2076 cov=15.1426
+5	1	2133	l=2133	cov=15.1426
+>assemblers/edenaOutput/real.error.large/_3 size=1740 cov=14.8282
+14	1	1758	l=1758	cov=14.8282
+>assemblers/edenaOutput/real.error.large/_4 size=1489 cov=15.0241
+15	1	1550	l=1550	cov=15.0241
+>assemblers/edenaOutput/real.error.large/_5 size=1329 cov=18.5542
+2	1	1344	l=1344	cov=18.5542
+>assemblers/edenaOutput/real.error.large/_6 size=1240 cov=16.3446
+9	1	1341	l=1341	cov=16.3446
+>assemblers/edenaOutput/real.error.large/_7 size=961 cov=16.0131
+6	1	1017	l=1017	cov=16.0131
+>assemblers/edenaOutput/real.error.large/_8 size=880 cov=13.4091
+7	1	979	l=979	cov=13.4091
+>assemblers/edenaOutput/real.error.large/_9 size=892 cov=14.6886
+16	1	950	l=950	cov=14.6886
+>assemblers/edenaOutput/real.error.large/_10 size=817 cov=13.4641
+10	1	864	l=864	cov=13.4641
+>assemblers/edenaOutput/real.error.large/_11 size=802 cov=12.938
+19	1	841	l=841	cov=12.938
+>assemblers/edenaOutput/real.error.large/_12 size=627 cov=10.8793
+12	1	770	l=770	cov=10.8793
+>assemblers/edenaOutput/real.error.large/_13 size=728 cov=15.1424
+13	1	766	l=766	cov=15.1424
+>assemblers/edenaOutput/real.error.large/_14 size=617 cov=20.7477
+11	1	634	l=634	cov=20.7477
+>assemblers/edenaOutput/real.error.large/_15 size=541 cov=9.94371
+4	1	632	l=632	cov=9.94371
+>assemblers/edenaOutput/real.error.large/_16 size=543 cov=10.9312
+29	1	593	l=593	cov=10.9312
+>assemblers/edenaOutput/real.error.large/_17 size=323 cov=13.3562
+20	1	391	l=391	cov=13.3562
+>assemblers/edenaOutput/real.error.large/_18 size=244 cov=12.4481
+1	1	340	l=340	cov=12.4481
+>assemblers/edenaOutput/real.error.large/_19 size=292 cov=15.625
+24	1	323	l=323	cov=15.625
+>assemblers/edenaOutput/real.error.large/_20 size=266 cov=12.3288
+17	1	318	l=318	cov=12.3288
+>assemblers/edenaOutput/real.error.large/_21 size=282 cov=10.3286
+28	1	312	l=312	cov=10.3286
+>assemblers/edenaOutput/real.error.large/_22 size=277 cov=17.619
+23	1	309	l=309	cov=17.619
+>assemblers/edenaOutput/real.error.large/_23 size=196 cov=8.85417
+26	1	291	l=291	cov=8.85417
+>assemblers/edenaOutput/real.error.large/_24 size=207 cov=13.4228
+8	1	248	l=248	cov=13.4228
+>assemblers/edenaOutput/real.error.large/_25 size=151 cov=22.973
+21	1	173	l=173	cov=22.973

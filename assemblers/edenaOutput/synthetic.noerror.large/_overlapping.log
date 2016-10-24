@@ -1,0 +1,20 @@
+[10/21/2016:13:49:30] Edena v3.131028
+[10/21/2016:13:49:30] argv[1] -r
+[10/21/2016:13:49:30] argv[2] data/synthetic.noerror.large.fasta
+[10/21/2016:13:49:30] argv[3] -p
+[10/21/2016:13:49:30] argv[4] assemblers/edenaOutput/synthetic.noerror.large/
+[10/21/2016:13:49:30] Number of reads upper bound estimation: 781
+[10/21/2016:13:49:30] Opening file:
+[10/21/2016:13:49:30] data/synthetic.noerror.large.fasta
+[10/21/2016:13:49:30] Loaded: 780, discarded: 0
+[10/21/2016:13:49:30] Reads length: 50
+[10/21/2016:13:49:30] Number of reads: 780
+[10/21/2016:13:49:30] Number of distinct sequences: 703
+[10/21/2016:13:49:30] Average reads redundancy: 1.1
+[10/21/2016:13:49:30] Initializing prefix tables
+[10/21/2016:13:49:30] Minimum overlaps size: 25
+[10/21/2016:13:49:30] Start computing overlaps
+[10/21/2016:13:49:30] Done computing overlaps
+[10/21/2016:13:49:30] Number of nodes: 703
+[10/21/2016:13:49:30] Number of edges: 705
+[10/21/2016:13:49:30] OSG written to file assemblers/edenaOutput/synthetic.noerror.large/.ovl

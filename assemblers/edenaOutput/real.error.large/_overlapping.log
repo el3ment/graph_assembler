@@ -1,0 +1,20 @@
+[10/21/2016:13:49:30] Edena v3.131028
+[10/21/2016:13:49:30] argv[1] -r
+[10/21/2016:13:49:30] argv[2] data/real.error.large.fasta
+[10/21/2016:13:49:30] argv[3] -p
+[10/21/2016:13:49:30] argv[4] assemblers/edenaOutput/real.error.large/
+[10/21/2016:13:49:30] Number of reads upper bound estimation: 4676
+[10/21/2016:13:49:30] Opening file:
+[10/21/2016:13:49:30] data/real.error.large.fasta
+[10/21/2016:13:49:30] Loaded: 4675, discarded: 77
+[10/21/2016:13:49:30] Reads length: 100
+[10/21/2016:13:49:30] Number of reads: 4598
+[10/21/2016:13:49:30] Number of distinct sequences: 4339
+[10/21/2016:13:49:30] Average reads redundancy: 1.1
+[10/21/2016:13:49:30] Initializing prefix tables
+[10/21/2016:13:49:30] Minimum overlaps size: 50
+[10/21/2016:13:49:30] Start computing overlaps
+[10/21/2016:13:49:30] Done computing overlaps
+[10/21/2016:13:49:30] Number of nodes: 4339
+[10/21/2016:13:49:30] Number of edges: 3768
+[10/21/2016:13:49:30] OSG written to file assemblers/edenaOutput/real.error.large/.ovl

@@ -1,0 +1,50 @@
+>assemblers/edenaOutput/real.error.large/_1 size=2644 cov=15.2257 node:3 || 
+3
+>assemblers/edenaOutput/real.error.large/_2 size=2076 cov=15.1426 node:5 || 
+5
+>assemblers/edenaOutput/real.error.large/_3 size=1740 cov=14.8282 node:14 || 
+14
+>assemblers/edenaOutput/real.error.large/_4 size=1489 cov=15.0241 node:15 || 
+15
+>assemblers/edenaOutput/real.error.large/_5 size=1329 cov=18.5542 node:2 || 
+2
+>assemblers/edenaOutput/real.error.large/_6 size=1240 cov=16.3446 node:9 || 
+9
+>assemblers/edenaOutput/real.error.large/_7 size=961 cov=16.0131 node:6 || 
+6
+>assemblers/edenaOutput/real.error.large/_8 size=880 cov=13.4091 node:7 || 
+7
+>assemblers/edenaOutput/real.error.large/_9 size=892 cov=14.6886 node:16 || 
+16
+>assemblers/edenaOutput/real.error.large/_10 size=817 cov=13.4641 node:10 || 
+10
+>assemblers/edenaOutput/real.error.large/_11 size=802 cov=12.938 node:19 || 
+19
+>assemblers/edenaOutput/real.error.large/_12 size=627 cov=10.8793 node:12 || 
+12
+>assemblers/edenaOutput/real.error.large/_13 size=728 cov=15.1424 node:13 || 
+13
+>assemblers/edenaOutput/real.error.large/_14 size=617 cov=20.7477 node:11 |~ 
+11
+>assemblers/edenaOutput/real.error.large/_15 size=541 cov=9.94371 node:4 || 
+4
+>assemblers/edenaOutput/real.error.large/_16 size=543 cov=10.9312 node:29 ~~ 
+29
+>assemblers/edenaOutput/real.error.large/_17 size=323 cov=13.3562 node:20 || 
+20
+>assemblers/edenaOutput/real.error.large/_18 size=244 cov=12.4481 node:1 || 
+1
+>assemblers/edenaOutput/real.error.large/_19 size=292 cov=15.625 node:24 || 
+24
+>assemblers/edenaOutput/real.error.large/_20 size=266 cov=12.3288 node:17 || 
+17
+>assemblers/edenaOutput/real.error.large/_21 size=282 cov=10.3286 node:28 || 
+28
+>assemblers/edenaOutput/real.error.large/_22 size=277 cov=17.619 node:23 || 
+23
+>assemblers/edenaOutput/real.error.large/_23 size=196 cov=8.85417 node:26 |~ 
+26
+>assemblers/edenaOutput/real.error.large/_24 size=207 cov=13.4228 node:8 ~| 
+8
+>assemblers/edenaOutput/real.error.large/_25 size=151 cov=22.973 node:21 ~| 
+21

@@ -1,0 +1,42 @@
+Fri Oct 21 13:46:05 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/example.data/30 30 -short data/example.data.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Fri Oct 21 13:46:05 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.data/30
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 1 nodes and n50 of 103, max 103, total 103, using 0/9 reads
+Mon Oct 24 13:31:52 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/example.data/30 30 -short data/example.data.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Mon Oct 24 13:31:52 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.data/30
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 1 nodes and n50 of 103, max 103, total 103, using 0/9 reads

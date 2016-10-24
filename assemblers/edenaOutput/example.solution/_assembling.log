@@ -1,0 +1,36 @@
+[10/21/2016:13:49:29] Edena v3.131028
+[10/21/2016:13:49:29] argv[1] -e
+[10/21/2016:13:49:29] argv[2] assemblers/edenaOutput/example.solution/.ovl
+[10/21/2016:13:49:29] argv[3] -p
+[10/21/2016:13:49:29] argv[4] assemblers/edenaOutput/example.solution/
+[10/21/2016:13:49:29] reads length:             137
+[10/21/2016:13:49:29] number of reads:          1
+[10/21/2016:13:49:29] number of nodes:          1
+[10/21/2016:13:49:29] number of edges:          0
+[10/21/2016:13:49:29] minimum overlap size:     68
+[10/21/2016:13:49:29] Graph has been condensed to 1 nodes
+[10/21/2016:13:49:29] Removed orphan non-usable nodes: 1 (100.0% of the total number of reads)
+[10/21/2016:13:49:29] Removed dead-ends: 0 (0.0% of the total number of reads)
+[10/21/2016:13:49:29] Graph has been condensed to 0 nodes
+[10/21/2016:13:49:29] Contextual cleaning cleared 0 incoherent edges
+[10/21/2016:13:49:29] Graph has been condensed to 0 nodes
+[10/21/2016:13:49:29] Removed dead-ends: 0 (0.0% of the total number of reads)
+[10/21/2016:13:49:29] Graph has been condensed to 0 nodes
+[10/21/2016:13:49:29] Removed orphan non-usable nodes: 0
+[10/21/2016:13:49:29] Graph has been condensed to 0 nodes
+[10/21/2016:13:49:29] Nodes coverage sampling:
+[10/21/2016:13:49:29] mean: 0.0
+[10/21/2016:13:49:29] median: 0.0
+[10/21/2016:13:49:29] 1st percentile 0.0
+[10/21/2016:13:49:29] 1st decile 0.0
+[10/21/2016:13:49:29] sd: 0.0
+[10/21/2016:13:49:29] minimum required coverage automatically set to: 0.0
+[10/21/2016:13:49:29] target size (roughly) estimated as 0
+[10/21/2016:13:49:29] Resolved bubbles: 0
+[10/21/2016:13:49:29] Graph has been condensed to 0 nodes
+[10/21/2016:13:49:29] Suspicious nodes removed: 0
+[10/21/2016:13:49:29] Graph has been condensed to 0 nodes
+[10/21/2016:13:49:29] Number of contigs:  0
+[10/21/2016:13:49:29] Assembly breaks occurred due to:
+[10/21/2016:13:49:29] non-resolved ambiguity: 0
+[10/21/2016:13:49:29] dead-end: 0

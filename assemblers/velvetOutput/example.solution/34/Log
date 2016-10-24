@@ -1,0 +1,21 @@
+Fri Oct 21 13:46:16 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/example.solution/34 34 -short data/example.solution.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Fri Oct 21 13:46:16 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/example.solution/34
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 0 nodes and n50 of 0, max 0, total 0, using 0/1 reads
