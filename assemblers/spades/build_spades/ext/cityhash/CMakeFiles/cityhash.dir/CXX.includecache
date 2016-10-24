@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/cityhash/city.cc
+/graph_assembler/assemblers/spades/ext/src/cityhash/city.cc
 city/city.h
 -
 algorithm
@@ -30,7 +30,7 @@ machine/bswap.h
 byteswap.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/city/city.h
+/graph_assembler/assemblers/spades/src/../ext/include/city/city.h
 stdlib.h
 -
 stdint.h

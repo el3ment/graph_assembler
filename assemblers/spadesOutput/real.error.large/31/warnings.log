@@ -1,0 +1,4 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:00.680     8M / 1G    WARN    General                 (kmer_coverage_model.cpp   : 217)   Too many erroneous kmers, the estimates might be unreliable
+======= Warnings saved to /graph_assembler/assemblers/spadesOutput/real.error.large/31/warnings.log

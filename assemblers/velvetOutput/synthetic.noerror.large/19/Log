@@ -1,0 +1,21 @@
+Mon Oct 24 21:31:09 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/synthetic.noerror.large/19 19 -short data/synthetic.noerror.large.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Mon Oct 24 21:31:09 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/synthetic.noerror.large/19
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 34 nodes and n50 of 990, max 1009, total 3660, using 0/780 reads

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/bitpair_vector.cpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/bitpair_vector.cpp
 bitpair_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/bitpair_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/bitpair_vector.hpp
 iostream
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/bitpair_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/bitpair_vector.hpp
 common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/common.hpp
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/common.hpp
 cstdint
 -
 iterator
@@ -28,7 +28,7 @@ memory
 cassert
 -
 emphf_config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/emphf_config.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/emphf_config.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/emphf_config.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/emphf_config.hpp
 

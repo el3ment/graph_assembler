@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regcclass.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regcclass.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regcname.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regcname.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regcomp.c
+/graph_assembler/assemblers/spades/ext/src/llvm/regcomp.c
 sys/types.h
 -
 stdio.h
@@ -24,21 +24,21 @@ limits.h
 stdlib.h
 -
 regex_impl.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex_impl.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex_impl.h
 regutils.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regutils.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regutils.h
 regex2.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex2.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex2.h
 regcclass.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regcclass.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regcclass.h
 regcname.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regcname.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regcname.h
 stdint.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regengine.inc
+/graph_assembler/assemblers/spades/ext/src/llvm/regengine.inc
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regerror.c
+/graph_assembler/assemblers/spades/ext/src/llvm/regerror.c
 sys/types.h
 -
 stdio.h
@@ -52,17 +52,17 @@ limits.h
 stdlib.h
 -
 regex_impl.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex_impl.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex_impl.h
 regutils.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regutils.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regutils.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex2.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex2.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex_impl.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex_impl.h
 sys/types.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regexec.c
+/graph_assembler/assemblers/spades/ext/src/llvm/regexec.c
 sys/types.h
 -
 stdio.h
@@ -76,17 +76,17 @@ limits.h
 ctype.h
 -
 regex_impl.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex_impl.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex_impl.h
 regutils.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regutils.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regutils.h
 regex2.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex2.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex2.h
 regengine.inc
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regengine.inc
+/graph_assembler/assemblers/spades/ext/src/llvm/regengine.inc
 regengine.inc
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regengine.inc
+/graph_assembler/assemblers/spades/ext/src/llvm/regengine.inc
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regfree.c
+/graph_assembler/assemblers/spades/ext/src/llvm/regfree.c
 sys/types.h
 -
 stdio.h
@@ -94,21 +94,21 @@ stdio.h
 stdlib.h
 -
 regex_impl.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex_impl.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex_impl.h
 regutils.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regutils.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regutils.h
 regex2.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex2.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex2.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regstrlcpy.c
+/graph_assembler/assemblers/spades/ext/src/llvm/regstrlcpy.c
 sys/types.h
 -
 string.h
 -
 regex_impl.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regex_impl.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regex_impl.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/llvm/regutils.h
+/graph_assembler/assemblers/spades/ext/src/llvm/regutils.h
 assert.h
 -
 

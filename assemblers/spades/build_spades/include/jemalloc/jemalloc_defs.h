@@ -6,7 +6,7 @@
 #undef JEMALLOC_PREFIX
 #undef JEMALLOC_CPREFIX
 
-/* #undef HAVE_FEATURES_H */
+#define HAVE_FEATURES_H
 
 /*
  * Name mangling for public symbols is controlled by --with-mangling and
@@ -56,7 +56,7 @@
  * Defined if OSAtomic*() functions are available, as provided by Darwin, and
  * documented in the atomic(3) manual page.
  */
-#define JEMALLOC_OSATOMIC
+/* #undef JEMALLOC_OSATOMIC */
 
 /*
  * Defined if __sync_add_and_fetch(uint32_t *, uint32_t) and
@@ -78,7 +78,7 @@
  * Defined if OSSpin*() functions are available, as provided by Darwin, and
  * documented in the spinlock(3) manual page.
  */
-#define JEMALLOC_OSSPIN
+/* #undef JEMALLOC_OSSPIN */
 
 /*
  * Defined if _malloc_thread_cleanup() exists.  At least in the case of
@@ -199,7 +199,7 @@
  * later reuse.  This is disabled by default on Linux because common sequences
  * of mmap()/munmap() calls will cause virtual memory map holes.
  */
-#define JEMALLOC_MUNMAP
+/* #undef JEMALLOC_MUNMAP */
 
 /*
  * If defined, use mremap(...MREMAP_FIXED...) for huge realloc().  This is
@@ -209,19 +209,19 @@
 #undef JEMALLOC_MREMAP
 
 /* TLS is used to map arenas and magazine caches to threads. */
-/* #undef JEMALLOC_TLS */
+#define JEMALLOC_TLS
 
 /*
  * JEMALLOC_IVSALLOC enables ivsalloc(), which verifies that pointers reside
  * within jemalloc-owned chunks before dereferencing them.
  */
-#define JEMALLOC_IVSALLOC
+/* #undef JEMALLOC_IVSALLOC */
 
 /*
  * Define overrides for non-standard allocator-related functions if they
  * are present on the system.
  */
-/* #undef JEMALLOC_OVERRIDE_MEMALIGN */
+#define JEMALLOC_OVERRIDE_MEMALIGN
 #define JEMALLOC_OVERRIDE_VALLOC
 
 /*
@@ -231,13 +231,13 @@
  *
  * Match the operating system's prototype.
  */
-#define JEMALLOC_USABLE_SIZE_CONST const
+#define JEMALLOC_USABLE_SIZE_CONST 
 
 /*
  * Darwin (OS X) uses zones to work around Mach-O symbol override shortcomings.
  */
-#define JEMALLOC_ZONE
-#define JEMALLOC_ZONE_VERSION 8
+/* #undef JEMALLOC_ZONE */
+/* #undef JEMALLOC_ZONE_VERSION */
 
 /*
  * Methods for purging unused pages differ between operating systems.
@@ -249,8 +249,8 @@
  *                             unused, such that they will be discarded rather
  *                             than swapped out.
  */
-/* #undef JEMALLOC_PURGE_MADVISE_DONTNEED */
-#define JEMALLOC_PURGE_MADVISE_FREE
+#define JEMALLOC_PURGE_MADVISE_DONTNEED
+/* #undef JEMALLOC_PURGE_MADVISE_FREE */
 
 /* sizeof(void *) == 2^LG_SIZEOF_PTR. */
 #define LG_SIZEOF_PTR 3

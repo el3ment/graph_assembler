@@ -1,8 +1,8 @@
-# Install script for directory: /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3
+# Install script for directory: /graph_assembler/assemblers/spades/ext/src/python_libs/joblib3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0")
+  set(CMAKE_INSTALL_PREFIX "/graph_assembler/assemblers/spades")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,23 +27,28 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spades/joblib3" TYPE FILE FILES
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/__init__.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/disk.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/format_stack.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/func_inspect.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/_compat.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/hashing.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/logger.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/memory.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/my_exceptions.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/numpy_pickle.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/parallel.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/testing.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/_memory_helpers.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/_multiprocessing_helpers.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/joblib3/pool.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/__init__.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/disk.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/format_stack.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/func_inspect.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/_compat.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/hashing.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/logger.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/memory.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/my_exceptions.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/numpy_pickle.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/parallel.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/testing.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/_memory_helpers.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/_multiprocessing_helpers.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/joblib3/pool.py"
     )
 endif()
 

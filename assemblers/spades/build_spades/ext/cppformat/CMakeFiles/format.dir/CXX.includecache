@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/cppformat/format.cc
+/graph_assembler/assemblers/spades/ext/src/cppformat/format.cc
 cppformat/format.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/cppformat/cppformat/format.h
+/graph_assembler/assemblers/spades/ext/src/cppformat/cppformat/format.h
 string.h
 -
 cctype
@@ -26,9 +26,9 @@ cstring
 windows.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/cppformat/posix.cc
+/graph_assembler/assemblers/spades/ext/src/cppformat/posix.cc
 cppformat/posix.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/cppformat/cppformat/posix.h
+/graph_assembler/assemblers/spades/ext/src/cppformat/cppformat/posix.h
 limits.h
 -
 sys/types.h
@@ -42,7 +42,7 @@ windows.h
 io.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/cppformat/format.h
+/graph_assembler/assemblers/spades/src/../ext/include/cppformat/format.h
 stdint.h
 -
 cassert
@@ -68,7 +68,7 @@ iterator
 utility
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/cppformat/posix.h
+/graph_assembler/assemblers/spades/src/../ext/include/cppformat/posix.h
 errno.h
 -
 fcntl.h
@@ -78,7 +78,7 @@ stdio.h
 cstddef
 -
 format.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/cppformat/format.h
+/graph_assembler/assemblers/spades/src/../ext/include/cppformat/format.h
 test/posix-test.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/cppformat/test/posix-test.h
+/graph_assembler/assemblers/spades/src/../ext/include/cppformat/test/posix-test.h
 

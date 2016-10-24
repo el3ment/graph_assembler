@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.c
 stdio.h
 -
 ctype.h
@@ -16,15 +16,15 @@ errno.h
 assert.h
 -
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 bam_endian.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_endian.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_endian.h
 kstring.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kstring.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kstring.h
 sam_header.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam_header.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam_header.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 stdint.h
 -
 stdlib.h
@@ -34,19 +34,19 @@ string.h
 stdio.h
 -
 bgzf.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bgzf.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bgzf.h
 zlib.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_aux.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_aux.c
 ctype.h
 -
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 khash.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_cat.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_cat.c
 stdio.h
 -
 stdlib.h
@@ -54,17 +54,17 @@ stdlib.h
 unistd.h
 -
 knetfile.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/knetfile.h
+/graph_assembler/assemblers/spades/ext/src/samtools/knetfile.h
 bgzf.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bgzf.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bgzf.h
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_endian.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_endian.h
 stdint.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_import.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_import.c
 zlib.h
 -
 stdio.h
@@ -82,33 +82,33 @@ assert.h
 fcntl.h
 -
 kstring.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kstring.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kstring.h
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 sam_header.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam_header.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam_header.h
 kseq.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kseq.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kseq.h
 khash.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_index.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_index.c
 ctype.h
 -
 assert.h
 -
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 khash.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 ksort.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/ksort.h
+/graph_assembler/assemblers/spades/ext/src/samtools/ksort.h
 bam_endian.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_endian.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_endian.h
 knetfile.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/knetfile.h
+/graph_assembler/assemblers/spades/ext/src/samtools/knetfile.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_lpileup.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_lpileup.c
 stdlib.h
 -
 stdio.h
@@ -116,11 +116,11 @@ stdio.h
 assert.h
 -
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 ksort.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/ksort.h
+/graph_assembler/assemblers/spades/ext/src/samtools/ksort.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_md.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_md.c
 unistd.h
 -
 assert.h
@@ -132,17 +132,17 @@ ctype.h
 math.h
 -
 faidx.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/faidx.h
+/graph_assembler/assemblers/spades/ext/src/samtools/faidx.h
 sam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam.h
 kstring.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kstring.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kstring.h
 kaln.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kaln.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kaln.h
 kprobaln.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kprobaln.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kprobaln.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_pileup.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_pileup.c
 stdio.h
 -
 stdlib.h
@@ -152,21 +152,21 @@ ctype.h
 assert.h
 -
 sam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_reheader.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_reheader.c
 stdio.h
 -
 stdlib.h
 -
 knetfile.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/knetfile.h
+/graph_assembler/assemblers/spades/ext/src/samtools/knetfile.h
 bgzf.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bgzf.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bgzf.h
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam_sort.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bam_sort.c
 stdlib.h
 -
 ctype.h
@@ -182,13 +182,13 @@ string.h
 unistd.h
 -
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 ksort.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/ksort.h
+/graph_assembler/assemblers/spades/ext/src/samtools/ksort.h
 pthread.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bedidx.c
+/graph_assembler/assemblers/spades/ext/src/samtools/bedidx.c
 stdlib.h
 -
 stdint.h
@@ -200,13 +200,13 @@ stdio.h
 zlib.h
 -
 ksort.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/ksort.h
+/graph_assembler/assemblers/spades/ext/src/samtools/ksort.h
 kseq.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kseq.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kseq.h
 khash.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bgzf.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bgzf.h
 stdint.h
 -
 stdio.h
@@ -216,7 +216,7 @@ zlib.h
 sys/types.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/faidx.c
+/graph_assembler/assemblers/spades/ext/src/samtools/faidx.c
 ctype.h
 -
 string.h
@@ -228,23 +228,23 @@ stdio.h
 stdint.h
 -
 faidx.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/faidx.h
+/graph_assembler/assemblers/spades/ext/src/samtools/faidx.h
 khash.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 razf.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/razf.h
+/graph_assembler/assemblers/spades/ext/src/samtools/razf.h
 knetfile.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/knetfile.h
+/graph_assembler/assemblers/spades/ext/src/samtools/knetfile.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/faidx.h
+/graph_assembler/assemblers/spades/ext/src/samtools/faidx.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kaln.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kaln.h
 stdint.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 khash.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 stdlib.h
 -
 string.h
@@ -252,7 +252,7 @@ string.h
 limits.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/knetfile.h
+/graph_assembler/assemblers/spades/ext/src/samtools/knetfile.h
 stdint.h
 -
 fcntl.h
@@ -260,7 +260,7 @@ fcntl.h
 winsock2.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kprobaln.c
+/graph_assembler/assemblers/spades/ext/src/samtools/kprobaln.c
 stdlib.h
 -
 stdio.h
@@ -272,15 +272,15 @@ stdint.h
 math.h
 -
 kprobaln.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kprobaln.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kprobaln.h
 unistd.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kprobaln.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kprobaln.h
 stdint.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kseq.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kseq.h
 ctype.h
 -
 string.h
@@ -288,13 +288,13 @@ string.h
 stdlib.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/ksort.h
+/graph_assembler/assemblers/spades/ext/src/samtools/ksort.h
 stdlib.h
 -
 string.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kstring.c
+/graph_assembler/assemblers/spades/ext/src/samtools/kstring.c
 stdarg.h
 -
 stdio.h
@@ -306,11 +306,11 @@ string.h
 stdint.h
 -
 kstring.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kstring.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kstring.h
 stdio.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/kstring.h
+/graph_assembler/assemblers/spades/ext/src/samtools/kstring.h
 stdlib.h
 -
 string.h
@@ -318,7 +318,7 @@ string.h
 stdint.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/razf.c
+/graph_assembler/assemblers/spades/ext/src/samtools/razf.c
 fcntl.h
 -
 stdio.h
@@ -330,35 +330,35 @@ string.h
 unistd.h
 -
 razf.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/razf.h
+/graph_assembler/assemblers/spades/ext/src/samtools/razf.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/razf.h
+/graph_assembler/assemblers/spades/ext/src/samtools/razf.h
 stdint.h
 -
 stdio.h
 -
 zlib.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/zlib.h
+/graph_assembler/assemblers/spades/ext/src/samtools/zlib.h
 knetfile.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/knetfile.h
+/graph_assembler/assemblers/spades/ext/src/samtools/knetfile.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam.c
+/graph_assembler/assemblers/spades/ext/src/samtools/sam.c
 string.h
 -
 unistd.h
 -
 faidx.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/faidx.h
+/graph_assembler/assemblers/spades/ext/src/samtools/faidx.h
 sam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam.h
 bam.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/bam.h
+/graph_assembler/assemblers/spades/ext/src/samtools/bam.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam_header.c
+/graph_assembler/assemblers/spades/ext/src/samtools/sam_header.c
 sam_header.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam_header.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam_header.h
 stdio.h
 -
 string.h
@@ -370,7 +370,7 @@ stdlib.h
 stdarg.h
 -
 khash.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/khash.h
+/graph_assembler/assemblers/spades/ext/src/samtools/khash.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/samtools/sam_header.h
+/graph_assembler/assemblers/spades/ext/src/samtools/sam_header.h
 

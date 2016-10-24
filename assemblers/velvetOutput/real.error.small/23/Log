@@ -1,0 +1,21 @@
+Mon Oct 24 21:29:56 2016
+ assemblers/velvet/velveth assemblers/velvetOutput/real.error.small/23 23 -short data/real.error.small.fasta
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Mon Oct 24 21:29:56 2016
+ assemblers/velvet/velvetg assemblers/velvetOutput/real.error.small/23
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 7 nodes and n50 of 845, max 845, total 1093, using 0/102 reads

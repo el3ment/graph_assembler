@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/deprecated.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/deprecated.c
 nlopt/nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/nlopt.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/general.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/general.c
 math.h
 -
 float.h
 -
 nlopt/nlopt-internal.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/nlopt-internal.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/nlopt-internal.h
 windows.h
 -
 unistd.h
@@ -28,7 +28,7 @@ sys/types.h
 unistd.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/optimize.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/optimize.c
 stdlib.h
 -
 math.h
@@ -36,33 +36,33 @@ math.h
 float.h
 -
 nlopt/nlopt-internal.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/nlopt-internal.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/nlopt-internal.h
 nlopt/praxis.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/praxis.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/praxis.h
 nlopt/cdirect.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/cdirect.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/cdirect.h
 nlopt/crs.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/crs.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/crs.h
 nlopt/mlsl.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/mlsl.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/mlsl.h
 nlopt/mma.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/mma.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/mma.h
 nlopt/cobyla.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/cobyla.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/cobyla.h
 nlopt/newuoa.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/newuoa.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/newuoa.h
 nlopt/neldermead.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/neldermead.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/neldermead.h
 nlopt/auglag.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/auglag.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/auglag.h
 nlopt/bobyqa.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/bobyqa.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/bobyqa.h
 nlopt/isres.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/isres.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/isres.h
 nlopt/esch.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/esch.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/esch.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/options.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/options.c
 stdio.h
 -
 stdlib.h
@@ -74,9 +74,9 @@ string.h
 float.h
 -
 nlopt/nlopt-internal.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/api/nlopt/nlopt-internal.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/api/nlopt/nlopt-internal.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/auglag/auglag.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/auglag/auglag.c
 stdlib.h
 -
 math.h
@@ -86,9 +86,9 @@ string.h
 stdio.h
 -
 nlopt/auglag.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/auglag/nlopt/auglag.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/auglag/nlopt/auglag.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/bobyqa/bobyqa.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/bobyqa/bobyqa.c
 math.h
 -
 stdlib.h
@@ -96,9 +96,9 @@ stdlib.h
 string.h
 -
 nlopt/bobyqa.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/bobyqa/nlopt/bobyqa.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/bobyqa/nlopt/bobyqa.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/cdirect.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/cdirect.c
 math.h
 -
 stdlib.h
@@ -106,15 +106,15 @@ stdlib.h
 string.h
 -
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/nlopt-util.h
 nlopt/nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/nlopt.h
 nlopt/cdirect.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/cdirect.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/cdirect.h
 nlopt/redblack.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/redblack.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/redblack.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/hybrid.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/hybrid.c
 math.h
 -
 stdlib.h
@@ -122,15 +122,15 @@ stdlib.h
 string.h
 -
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/nlopt-util.h
 nlopt/nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/nlopt.h
 nlopt/cdirect.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/cdirect.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/cdirect.h
 nlopt/redblack.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cdirect/nlopt/redblack.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cdirect/nlopt/redblack.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cobyla/cobyla.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/cobyla/cobyla.c
 stdlib.h
 -
 stdio.h
@@ -138,29 +138,29 @@ stdio.h
 math.h
 -
 nlopt/cobyla.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/cobyla/nlopt/cobyla.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/cobyla/nlopt/cobyla.h
 stdint.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/crs/crs.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/crs/crs.c
 stdlib.h
 -
 string.h
 -
 nlopt/crs.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/crs/nlopt/crs.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/crs/nlopt/crs.h
 nlopt/redblack.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/crs/nlopt/redblack.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/crs/nlopt/redblack.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/esch/esch.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/esch/esch.c
 stdlib.h
 -
 string.h
 -
 nlopt/esch.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/esch/nlopt/esch.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/esch/nlopt/esch.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/isres/isres.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/isres/isres.c
 stdlib.h
 -
 math.h
@@ -168,9 +168,9 @@ math.h
 string.h
 -
 nlopt/isres.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/isres/nlopt/isres.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/isres/nlopt/isres.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mlsl/mlsl.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/mlsl/mlsl.c
 stdlib.h
 -
 math.h
@@ -178,11 +178,11 @@ math.h
 string.h
 -
 nlopt/redblack.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mlsl/nlopt/redblack.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/mlsl/nlopt/redblack.h
 nlopt/mlsl.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mlsl/nlopt/mlsl.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/mlsl/nlopt/mlsl.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mma/ccsa_quadratic.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/mma/ccsa_quadratic.c
 stdlib.h
 -
 math.h
@@ -192,11 +192,11 @@ string.h
 stdio.h
 -
 nlopt/mma.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mma/nlopt/mma.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/mma/nlopt/mma.h
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mma/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/mma/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mma/mma.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/mma/mma.c
 stdlib.h
 -
 math.h
@@ -206,11 +206,11 @@ string.h
 stdio.h
 -
 nlopt/mma.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mma/nlopt/mma.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/mma/nlopt/mma.h
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/mma/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/mma/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/neldermead/nldrmd.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/neldermead/nldrmd.c
 math.h
 -
 stdlib.h
@@ -218,11 +218,11 @@ stdlib.h
 string.h
 -
 nlopt/neldermead.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/neldermead/nlopt/neldermead.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/neldermead/nlopt/neldermead.h
 nlopt/redblack.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/neldermead/nlopt/redblack.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/neldermead/nlopt/redblack.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/neldermead/sbplx.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/neldermead/sbplx.c
 math.h
 -
 stdlib.h
@@ -232,9 +232,9 @@ stdio.h
 string.h
 -
 nlopt/neldermead.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/neldermead/nlopt/neldermead.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/neldermead/nlopt/neldermead.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/newuoa/newuoa.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/newuoa/newuoa.c
 math.h
 -
 stdlib.h
@@ -244,9 +244,9 @@ stdio.h
 string.h
 -
 nlopt/newuoa.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/newuoa/nlopt/newuoa.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/newuoa/nlopt/newuoa.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/praxis/praxis.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/praxis/praxis.c
 stdlib.h
 -
 math.h
@@ -254,63 +254,63 @@ math.h
 string.h
 -
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/praxis/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/praxis/nlopt/nlopt-util.h
 nlopt/praxis.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/praxis/nlopt/praxis.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/praxis/nlopt/praxis.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/mt19937ar.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/mt19937ar.c
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/nlopt/nlopt-util.h
 stdint.h
 -
 stdio.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/qsort_r.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/qsort_r.c
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/redblack.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/redblack.c
 stddef.h
 -
 stdlib.h
 -
 nlopt/redblack.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/nlopt/redblack.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/nlopt/redblack.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/rescale.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/rescale.c
 stdlib.h
 -
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/soboldata.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/soboldata.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/sobolseq.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/sobolseq.c
 stdlib.h
 -
 math.h
 -
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/nlopt/nlopt-util.h
 stdint.h
 -
 soboldata.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/soboldata.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/soboldata.h
 stdio.h
 -
 time.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/stop.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/stop.c
 math.h
 -
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/timer.c
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/timer.c
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/nlopt/util/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/ext/src/nlopt/util/nlopt/nlopt-util.h
 sys/time.h
 -
 time.h
@@ -322,95 +322,95 @@ time.h
 windows.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/auglag.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/auglag.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/bobyqa.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/bobyqa.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/cdirect.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/cdirect.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/cobyla.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/cobyla.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/crs.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/crs.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/esch.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/esch.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/isres.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/isres.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/mlsl.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/mlsl.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/mma.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/mma.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/neldermead.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/neldermead.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/newuoa.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/newuoa.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-internal.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-internal.h
 nlopt/nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt/nlopt.h
 nlopt/nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt/nlopt-util.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 stdlib.h
 -
 math.h
 -
 nlopt/nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt/nlopt.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 stddef.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/praxis.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/praxis.h
 nlopt-util.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt-util.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt-util.h
 nlopt.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/nlopt.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/nlopt.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/nlopt/redblack.h
+/graph_assembler/assemblers/spades/src/../ext/include/nlopt/redblack.h
 stddef.h
 -
 

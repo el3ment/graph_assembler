@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libinput.a  CMakeFiles/input.dir/reads_io/parser.cpp.o CMakeFiles/input.dir/sam_io/read.cpp.o CMakeFiles/input.dir/sam_io/sam_reader.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libinput.a
+/usr/bin/ar qc libinput.a  CMakeFiles/input.dir/reads_io/parser.cpp.o CMakeFiles/input.dir/sam_io/read.cpp.o CMakeFiles/input.dir/sam_io/sam_reader.cpp.o
+/usr/bin/ranlib libinput.a

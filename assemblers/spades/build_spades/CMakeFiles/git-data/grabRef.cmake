@@ -15,27 +15,27 @@
 
 set(HEAD_HASH)
 
-file(READ "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
+file(READ "/graph_assembler/assemblers/spades/build_spades/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
 
 string(STRIP "${HEAD_CONTENTS}" HEAD_CONTENTS)
 if(HEAD_CONTENTS MATCHES "ref")
 	# named branch
 	string(REPLACE "ref: " "" HEAD_REF "${HEAD_CONTENTS}")
-	if(EXISTS "/Users/pjtatlow/projects/bio365/graph_assembler/.git/${HEAD_REF}")
-		configure_file("/Users/pjtatlow/projects/bio365/graph_assembler/.git/${HEAD_REF}" "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/CMakeFiles/git-data/head-ref" COPYONLY)
+	if(EXISTS "/graph_assembler/.git/${HEAD_REF}")
+		configure_file("/graph_assembler/.git/${HEAD_REF}" "/graph_assembler/assemblers/spades/build_spades/CMakeFiles/git-data/head-ref" COPYONLY)
 	else()
-		configure_file("/Users/pjtatlow/projects/bio365/graph_assembler/.git/packed-refs" "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/CMakeFiles/git-data/packed-refs" COPYONLY)
-		file(READ "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/CMakeFiles/git-data/packed-refs" PACKED_REFS)
+		configure_file("/graph_assembler/.git/packed-refs" "/graph_assembler/assemblers/spades/build_spades/CMakeFiles/git-data/packed-refs" COPYONLY)
+		file(READ "/graph_assembler/assemblers/spades/build_spades/CMakeFiles/git-data/packed-refs" PACKED_REFS)
 		if(${PACKED_REFS} MATCHES "([0-9a-z]*) ${HEAD_REF}")
 			set(HEAD_HASH "${CMAKE_MATCH_1}")
 		endif()
 	endif()
 else()
 	# detached HEAD
-	configure_file("/Users/pjtatlow/projects/bio365/graph_assembler/.git/HEAD" "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/CMakeFiles/git-data/head-ref" COPYONLY)
+	configure_file("/graph_assembler/.git/HEAD" "/graph_assembler/assemblers/spades/build_spades/CMakeFiles/git-data/head-ref" COPYONLY)
 endif()
 
 if(NOT HEAD_HASH)
-	file(READ "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
+	file(READ "/graph_assembler/assemblers/spades/build_spades/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
 	string(STRIP "${HEAD_HASH}" HEAD_HASH)
 endif()

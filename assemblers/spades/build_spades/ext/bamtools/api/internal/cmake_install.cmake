@@ -1,8 +1,8 @@
-# Install script for directory: /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/bamtools/api/internal
+# Install script for directory: /graph_assembler/assemblers/spades/ext/src/bamtools/api/internal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0")
+  set(CMAKE_INSTALL_PREFIX "/graph_assembler/assemblers/spades")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,13 +27,18 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/ext/bamtools/api/internal/bam/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/ext/bamtools/api/internal/index/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/ext/bamtools/api/internal/io/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/ext/bamtools/api/internal/sam/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/ext/bamtools/api/internal/utils/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/ext/bamtools/api/internal/bam/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/ext/bamtools/api/internal/index/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/ext/bamtools/api/internal/io/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/ext/bamtools/api/internal/sam/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/ext/bamtools/api/internal/utils/cmake_install.cmake")
 
 endif()
 

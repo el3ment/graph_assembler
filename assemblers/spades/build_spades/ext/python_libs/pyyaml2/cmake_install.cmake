@@ -1,8 +1,8 @@
-# Install script for directory: /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2
+# Install script for directory: /graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0")
+  set(CMAKE_INSTALL_PREFIX "/graph_assembler/assemblers/spades")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,25 +27,30 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spades/pyyaml2" TYPE FILE FILES
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/__init__.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/composer.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/constructor.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/cyaml.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/dumper.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/emitter.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/error.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/events.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/loader.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/nodes.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/parser.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/reader.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/representer.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/resolver.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/scanner.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/serializer.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/python_libs/pyyaml2/tokens.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/__init__.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/composer.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/constructor.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/cyaml.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/dumper.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/emitter.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/error.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/events.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/loader.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/nodes.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/parser.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/reader.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/representer.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/resolver.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/scanner.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/serializer.py"
+    "/graph_assembler/assemblers/spades/ext/src/python_libs/pyyaml2/tokens.py"
     )
 endif()
 

@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libformat.a  CMakeFiles/format.dir/format.cc.o CMakeFiles/format.dir/posix.cc.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libformat.a
+/usr/bin/ar qc libformat.a  CMakeFiles/format.dir/format.cc.o CMakeFiles/format.dir/posix.cc.o
+/usr/bin/ranlib libformat.a

@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libpaired_info.a  CMakeFiles/paired_info.dir/bwa_pair_info_filler.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libpaired_info.a
+/usr/bin/ar qc libpaired_info.a  CMakeFiles/paired_info.dir/bwa_pair_info_filler.cpp.o
+/usr/bin/ranlib libpaired_info.a

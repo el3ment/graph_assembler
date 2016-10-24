@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/ssw/ssw_cpp.cpp
+/graph_assembler/assemblers/spades/ext/src/ssw/ssw_cpp.cpp
 ssw/ssw_cpp.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/ssw/ssw/ssw_cpp.h
+/graph_assembler/assemblers/spades/ext/src/ssw/ssw/ssw_cpp.h
 ssw/ssw.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/ext/src/ssw/ssw/ssw.h
+/graph_assembler/assemblers/spades/ext/src/ssw/ssw/ssw.h
 sstream
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/ssw/ssw.h
+/graph_assembler/assemblers/spades/src/../ext/include/ssw/ssw.h
 stdio.h
 -
 stdint.h
@@ -24,7 +24,7 @@ string.h
 emmintrin.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/ssw/ssw_cpp.h
+/graph_assembler/assemblers/spades/src/../ext/include/ssw/ssw_cpp.h
 stdint.h
 -
 string

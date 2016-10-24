@@ -1,0 +1,4 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:01.052     8M / 1G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 0
+======= Warnings saved to /graph_assembler/assemblers/spadesOutput/synthetic.noerror.small/13/warnings.log

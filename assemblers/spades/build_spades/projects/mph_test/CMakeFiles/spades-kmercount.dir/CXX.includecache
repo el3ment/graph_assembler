@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/assert.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/assert.hpp
 boost/current_function.hpp
 -
 assert.h
@@ -20,7 +20,7 @@ iostream
 boost/current_function.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config.hpp
 boost/config/select_compiler_config.hpp
 -
 boost/config/select_stdlib_config.hpp
@@ -30,21 +30,21 @@ boost/config/select_platform_config.hpp
 boost/config/suffix.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/no_tr1/utility.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/no_tr1/utility.hpp
 utility
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/posix_features.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/posix_features.hpp
 unistd.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/select_compiler_config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/select_compiler_config.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/select_platform_config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/select_platform_config.hpp
 boost/config/posix_features.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/select_stdlib_config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/select_stdlib_config.hpp
 cstddef
 -
 stddef.h
@@ -52,21 +52,21 @@ stddef.h
 boost/config/no_tr1/utility.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/suffix.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/suffix.hpp
 limits.h
 -
 cstddef
 -
 boost/type.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/boost/type.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/boost/type.hpp
 boost/non_type.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/config/boost/non_type.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/config/boost/non_type.hpp
 typeinfo
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/current_function.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/current_function.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/indirect_traits.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/indirect_traits.hpp
 boost/type_traits/is_function.hpp
 -
 boost/type_traits/is_reference.hpp
@@ -108,19 +108,19 @@ boost/mpl/aux_/lambda_support.hpp
 boost/detail/is_function_ref_tester.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/is_function_ref_tester.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/is_function_ref_tester.hpp
 boost/type_traits/detail/yes_no_type.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/type_traits/detail/yes_no_type.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/type_traits/detail/yes_no_type.hpp
 boost/type_traits/config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/type_traits/config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/type_traits/config.hpp
 boost/preprocessor/iterate.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/preprocessor/iterate.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/preprocessor/iterate.hpp
 boost/preprocessor/enum_params.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/preprocessor/enum_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/preprocessor/enum_params.hpp
 boost/preprocessor/comma_if.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/preprocessor/comma_if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/preprocessor/comma_if.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/iterator.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/iterator.hpp
 boost/config.hpp
 -
 iterator
@@ -144,27 +144,27 @@ boost/mpl/has_xxx.hpp
 cstddef
 -
 boost/type_traits/detail/bool_trait_def.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/type_traits/detail/bool_trait_def.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/type_traits/detail/bool_trait_def.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/reference_content.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/reference_content.hpp
 boost/config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/config.hpp
 boost/mpl/bool.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/mpl/bool.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/mpl/bool.hpp
 boost/type_traits/has_nothrow_copy.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/type_traits/has_nothrow_copy.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/type_traits/has_nothrow_copy.hpp
 boost/mpl/if.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/mpl/if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/mpl/if.hpp
 boost/type_traits/is_reference.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/type_traits/is_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/type_traits/is_reference.hpp
 boost/mpl/void.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/boost/mpl/void.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/boost/mpl/void.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/detail/workaround.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/detail/workaround.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator.hpp
 iterator
 -
 cstddef
@@ -172,7 +172,7 @@ cstddef
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/detail/config_def.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/detail/config_def.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -180,9 +180,9 @@ boost/detail/workaround.hpp
 boost/type_traits/is_convertible.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/detail/config_undef.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/detail/config_undef.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/detail/enable_if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/detail/enable_if.hpp
 boost/detail/workaround.hpp
 -
 boost/mpl/identity.hpp
@@ -192,7 +192,7 @@ boost/iterator/detail/config_def.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/detail/facade_iterator_category.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/detail/facade_iterator_category.hpp
 boost/iterator/iterator_categories.hpp
 -
 boost/mpl/or.hpp
@@ -224,7 +224,7 @@ boost/detail/indirect_traits.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/interoperable.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/interoperable.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/or.hpp
@@ -236,7 +236,7 @@ boost/iterator/detail/config_def.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/iterator_categories.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/iterator_categories.hpp
 boost/config.hpp
 -
 boost/detail/iterator.hpp
@@ -260,7 +260,7 @@ boost/static_assert.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/iterator_facade.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/iterator_facade.hpp
 boost/iterator.hpp
 -
 boost/iterator/interoperable.hpp
@@ -310,13 +310,13 @@ boost/iterator/detail/config_def.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/iterator/iterator_traits.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/iterator/iterator_traits.hpp
 boost/detail/iterator.hpp
 -
 boost/detail/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/always.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/always.hpp
 boost/mpl/aux_/preprocessor/def_params_tail.hpp
 -
 boost/mpl/aux_/na.hpp
@@ -324,7 +324,7 @@ boost/mpl/aux_/na.hpp
 boost/mpl/aux_/arity_spec.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/and.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/and.hpp
 boost/mpl/aux_/config/use_preprocessed.hpp
 -
 boost/mpl/bool.hpp
@@ -340,7 +340,7 @@ boost/mpl/aux_/include_preprocessed.hpp
 boost/mpl/aux_/logical_op.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/apply.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/apply.hpp
 boost/mpl/apply_fwd.hpp
 -
 boost/mpl/apply_wrap.hpp
@@ -390,7 +390,7 @@ boost/preprocessor/cat.hpp
 boost/mpl/aux_/count_args.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/apply_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/apply_fwd.hpp
 boost/mpl/aux_/na.hpp
 -
 boost/mpl/aux_/config/use_preprocessed.hpp
@@ -414,7 +414,7 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/apply_wrap.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/apply_wrap.hpp
 boost/mpl/aux_/arity.hpp
 -
 boost/mpl/aux_/has_apply.hpp
@@ -458,7 +458,7 @@ boost/preprocessor/iterate.hpp
 boost/mpl/aux_/msvc_dtw.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/arg.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/arg.hpp
 boost/mpl/arg_fwd.hpp
 -
 boost/mpl/aux_/na.hpp
@@ -494,13 +494,13 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/arg_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/arg_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/assert.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/assert.hpp
 boost/mpl/not.hpp
 -
 boost/mpl/aux_/value_wknd.hpp
@@ -534,7 +534,7 @@ boost/config.hpp
 cstddef
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/adl_barrier.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/adl_barrier.hpp
 boost/mpl/aux_/config/adl.hpp
 -
 boost/mpl/aux_/config/gcc.hpp
@@ -542,13 +542,13 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/arg_typedef.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/arg_typedef.hpp
 boost/mpl/aux_/config/lambda.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/arity.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/arity.hpp
 boost/mpl/aux_/config/dtp.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
@@ -556,7 +556,7 @@ boost/mpl/aux_/nttp_decl.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/arity_spec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/arity_spec.hpp
 boost/mpl/int.hpp
 -
 boost/mpl/limits/arity.hpp
@@ -576,11 +576,11 @@ boost/mpl/aux_/config/lambda.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/common_name_wknd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/common_name_wknd.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/adl.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/adl.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/intel.hpp
@@ -590,23 +590,23 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/arrays.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/arrays.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/bcc.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/bcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/bind.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/bind.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/compiler.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/compiler.hpp
 boost/mpl/aux_/config/dtp.hpp
 -
 boost/mpl/aux_/config/ttp.hpp
@@ -620,29 +620,29 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/ctps.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/ctps.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/dmc_ambiguous_ctps.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/dmc_ambiguous_ctps.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/dtp.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/dtp.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/eti.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/eti.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/gcc.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/gcc.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/has_apply.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/has_apply.hpp
 boost/mpl/aux_/config/has_xxx.hpp
 -
 boost/mpl/aux_/config/msvc.hpp
@@ -650,61 +650,61 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/has_xxx.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/has_xxx.hpp
 boost/mpl/aux_/config/overload_resolution.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/integral.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/integral.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/intel.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/intel.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/lambda.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/lambda.hpp
 boost/mpl/aux_/config/ttp.hpp
 -
 boost/mpl/aux_/config/ctps.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/msvc.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/msvc.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/msvc_typename.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/msvc_typename.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/nttp.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/nttp.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/overload_resolution.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/overload_resolution.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/pp_counter.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/pp_counter.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/preprocessor.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/preprocessor.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/static_constant.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/static_constant.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/ttp.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/ttp.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/gcc.hpp
@@ -712,13 +712,13 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/use_preprocessed.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/use_preprocessed.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/config/workaround.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/config/workaround.hpp
 boost/detail/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/count_args.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/count_args.hpp
 boost/preprocessor/expr_if.hpp
 -
 boost/preprocessor/inc.hpp
@@ -736,7 +736,7 @@ boost/preprocessor/repeat.hpp
 boost/preprocessor/inc.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/full_lambda.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/full_lambda.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/bind_fwd.hpp
@@ -786,13 +786,13 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/has_apply.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/has_apply.hpp
 boost/mpl/has_xxx.hpp
 -
 boost/mpl/aux_/config/has_apply.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/has_rebind.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/has_rebind.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/intel.hpp
@@ -826,11 +826,11 @@ boost/mpl/aux_/yes_no.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/has_type.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/has_type.hpp
 boost/mpl/has_xxx.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/include_preprocessed.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/include_preprocessed.hpp
 boost/mpl/aux_/config/compiler.hpp
 -
 boost/mpl/aux_/config/preprocessor.hpp
@@ -842,7 +842,7 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/stringize.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/integral_wrapper.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/integral_wrapper.hpp
 boost/mpl/integral_c_tag.hpp
 -
 boost/mpl/aux_/static_cast.hpp
@@ -856,11 +856,11 @@ boost/mpl/aux_/config/workaround.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/lambda_arity_param.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/lambda_arity_param.hpp
 boost/mpl/aux_/config/ttp.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/lambda_no_ctps.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/lambda_no_ctps.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/bind_fwd.hpp
@@ -910,7 +910,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/lambda_support.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/lambda_support.hpp
 boost/mpl/aux_/config/lambda.hpp
 -
 boost/mpl/int_fwd.hpp
@@ -936,7 +936,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/logical_op.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/logical_op.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/nested_type_wknd.hpp
@@ -968,11 +968,11 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/msvc_dtw.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/msvc_dtw.hpp
 boost/mpl/aux_/preprocessor/params.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/msvc_is_class.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/msvc_is_class.hpp
 boost/mpl/if.hpp
 -
 boost/mpl/bool.hpp
@@ -984,13 +984,13 @@ boost/mpl/aux_/yes_no.hpp
 boost/type_traits/is_reference.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/msvc_never_true.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/msvc_never_true.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/na.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/na.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/na_fwd.hpp
@@ -1000,7 +1000,7 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/ctps.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/na_assert.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/na_assert.hpp
 boost/mpl/aux_/na.hpp
 -
 boost/mpl/aux_/config/msvc.hpp
@@ -1012,11 +1012,11 @@ boost/mpl/assert.hpp
 boost/static_assert.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/na_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/na_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/na_spec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/na_spec.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/int.hpp
@@ -1050,19 +1050,19 @@ boost/mpl/aux_/config/lambda.hpp
 boost/mpl/aux_/config/overload_resolution.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/nested_type_wknd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/nested_type_wknd.hpp
 boost/mpl/aux_/config/gcc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/nttp_decl.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/nttp_decl.hpp
 boost/mpl/aux_/config/nttp.hpp
 -
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/add.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/add.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/mpl/aux_/preprocessor/tuple.hpp
@@ -1072,7 +1072,7 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/arithmetic/add.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp
 boost/mpl/limits/arity.hpp
 -
 boost/mpl/aux_/config/dtp.hpp
@@ -1104,7 +1104,7 @@ boost/preprocessor/repeat.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/default_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/default_params.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -1120,7 +1120,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/enum.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/enum.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -1130,7 +1130,7 @@ boost/preprocessor/comma_if.hpp
 boost/preprocessor/repeat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/ext_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/ext_params.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/mpl/aux_/preprocessor/filter_params.hpp
@@ -1150,9 +1150,9 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/filter_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/filter_params.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/params.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -1166,7 +1166,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/partial_spec_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/partial_spec_params.hpp
 boost/mpl/limits/arity.hpp
 -
 boost/mpl/aux_/preprocessor/params.hpp
@@ -1178,11 +1178,11 @@ boost/mpl/aux_/preprocessor/sub.hpp
 boost/preprocessor/comma_if.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/range.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/range.hpp
 boost/preprocessor/seq/subseq.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/repeat.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/repeat.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -1190,7 +1190,7 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/repeat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/sub.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/sub.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/mpl/aux_/preprocessor/tuple.hpp
@@ -1200,13 +1200,13 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/arithmetic/sub.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/preprocessor/tuple.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/preprocessor/tuple.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/static_cast.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/static_cast.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/template_arity.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/template_arity.hpp
 boost/mpl/aux_/config/ttp.hpp
 -
 boost/mpl/aux_/config/lambda.hpp
@@ -1248,13 +1248,13 @@ boost/preprocessor/cat.hpp
 boost/mpl/aux_/config/eti.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/template_arity_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/template_arity_fwd.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/type_wrapper.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/type_wrapper.hpp
 boost/mpl/aux_/config/ctps.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/value_wknd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/value_wknd.hpp
 boost/mpl/aux_/static_cast.hpp
 -
 boost/mpl/aux_/config/integral.hpp
@@ -1266,7 +1266,7 @@ boost/mpl/aux_/config/workaround.hpp
 boost/mpl/int.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/aux_/yes_no.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/aux_/yes_no.hpp
 boost/mpl/aux_/nttp_decl.hpp
 -
 boost/mpl/aux_/config/arrays.hpp
@@ -1276,7 +1276,7 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/bind.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/bind.hpp
 boost/mpl/bind_fwd.hpp
 -
 boost/mpl/placeholders.hpp
@@ -1344,7 +1344,7 @@ boost/preprocessor/inc.hpp
 boost/mpl/aux_/count_args.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/bind_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/bind_fwd.hpp
 boost/mpl/aux_/na.hpp
 -
 boost/mpl/aux_/config/bind.hpp
@@ -1368,7 +1368,7 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/bool.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/bool.hpp
 boost/mpl/bool_fwd.hpp
 -
 boost/mpl/integral_c_tag.hpp
@@ -1376,11 +1376,11 @@ boost/mpl/integral_c_tag.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/bool_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/bool_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/eval_if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/eval_if.hpp
 boost/mpl/if.hpp
 -
 boost/mpl/aux_/na_spec.hpp
@@ -1394,7 +1394,7 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/has_xxx.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/has_xxx.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/na_spec.hpp
@@ -1432,13 +1432,13 @@ boost/mpl/if.hpp
 boost/mpl/bool.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/identity.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/identity.hpp
 boost/mpl/aux_/na_spec.hpp
 -
 boost/mpl/aux_/lambda_support.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/if.hpp
 boost/mpl/aux_/value_wknd.hpp
 -
 boost/mpl/aux_/static_cast.hpp
@@ -1454,19 +1454,19 @@ boost/mpl/aux_/config/ctps.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/int.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/int.hpp
 boost/mpl/int_fwd.hpp
 -
 boost/mpl/aux_/integral_wrapper.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/int_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/int_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/integral_c.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/integral_c.hpp
 boost/mpl/integral_c_fwd.hpp
 -
 boost/mpl/aux_/config/ctps.hpp
@@ -1478,19 +1478,19 @@ boost/mpl/aux_/config/workaround.hpp
 boost/mpl/aux_/integral_wrapper.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/integral_c_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/integral_c_fwd.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 boost/mpl/aux_/adl_barrier.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/integral_c_tag.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/integral_c_tag.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/is_placeholder.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/is_placeholder.hpp
 boost/mpl/arg_fwd.hpp
 -
 boost/mpl/bool.hpp
@@ -1506,7 +1506,7 @@ boost/mpl/aux_/config/ctps.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/lambda.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/lambda.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/bind.hpp
@@ -1520,7 +1520,7 @@ boost/mpl/aux_/lambda_no_ctps.hpp
 boost/mpl/aux_/lambda_support.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/lambda_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/lambda_fwd.hpp
 boost/mpl/void_fwd.hpp
 -
 boost/mpl/aux_/na.hpp
@@ -1536,13 +1536,13 @@ boost/mpl/aux_/template_arity_fwd.hpp
 boost/mpl/bool.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/limits/arity.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/limits/arity.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/next.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/next.hpp
 boost/mpl/next_prior.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/next_prior.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/next_prior.hpp
 boost/mpl/aux_/common_name_wknd.hpp
 -
 boost/mpl/aux_/na_spec.hpp
@@ -1550,7 +1550,7 @@ boost/mpl/aux_/na_spec.hpp
 boost/mpl/aux_/lambda_support.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/not.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/not.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
@@ -1562,7 +1562,7 @@ boost/mpl/aux_/na_spec.hpp
 boost/mpl/aux_/lambda_support.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/or.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/or.hpp
 boost/mpl/aux_/config/use_preprocessed.hpp
 -
 boost/mpl/bool.hpp
@@ -1580,7 +1580,7 @@ boost/mpl/aux_/include_preprocessed.hpp
 boost/mpl/aux_/logical_op.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/placeholders.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/placeholders.hpp
 boost/mpl/arg.hpp
 -
 boost/mpl/aux_/adl_barrier.hpp
@@ -1598,7 +1598,7 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/protect.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/protect.hpp
 boost/mpl/aux_/arity.hpp
 -
 boost/mpl/aux_/config/dtp.hpp
@@ -1608,7 +1608,7 @@ boost/mpl/aux_/nttp_decl.hpp
 boost/mpl/aux_/na_spec.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/quote.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/quote.hpp
 boost/mpl/void.hpp
 -
 boost/mpl/aux_/has_type.hpp
@@ -1634,13 +1634,13 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/size_t.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/size_t.hpp
 boost/mpl/size_t_fwd.hpp
 -
 boost/mpl/aux_/integral_wrapper.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/size_t_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/size_t_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 boost/config.hpp
@@ -1648,7 +1648,7 @@ boost/config.hpp
 cstddef
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/void.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/void.hpp
 boost/mpl/void_fwd.hpp
 -
 boost/mpl/bool.hpp
@@ -1660,25 +1660,25 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/mpl/void_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/mpl/void_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/non_type.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/non_type.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/noncopyable.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/noncopyable.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/none.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/none.hpp
 boost/none_t.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/boost/none_t.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/boost/none_t.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/none_t.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/none_t.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/optional.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/optional.hpp
 boost/optional/optional.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/boost/optional/optional.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/boost/optional/optional.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/optional/optional.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/optional/optional.hpp
 new
 -
 algorithm
@@ -1720,9 +1720,9 @@ boost/utility/in_place_factory.hpp
 boost/optional/optional_fwd.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/optional/optional_fwd.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/optional/optional_fwd.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/arithmetic/add.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/arithmetic/add.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/arithmetic/inc.hpp
@@ -1734,15 +1734,15 @@ boost/preprocessor/control/while.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/arithmetic/dec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/arithmetic/dec.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/arithmetic/inc.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/arithmetic/inc.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/arithmetic/sub.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/arithmetic/sub.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -1752,13 +1752,13 @@ boost/preprocessor/control/while.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/array/data.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/array/data.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/array/elem.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/array/elem.hpp
 boost/preprocessor/array/data.hpp
 -
 boost/preprocessor/array/size.hpp
@@ -1768,23 +1768,23 @@ boost/preprocessor/config/config.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/array/size.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/array/size.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/cat.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/cat.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/comma_if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/comma_if.hpp
 boost/preprocessor/punctuation/comma_if.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/config/config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/config/config.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/detail/dmc/while.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/detail/dmc/while.hpp
 boost/preprocessor/control/iif.hpp
 -
 boost/preprocessor/logical/bool.hpp
@@ -1792,19 +1792,19 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/detail/edg/while.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/detail/edg/while.hpp
 boost/preprocessor/control/if.hpp
 -
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/detail/msvc/while.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/detail/msvc/while.hpp
 boost/preprocessor/control/if.hpp
 -
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/detail/while.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/detail/while.hpp
 boost/preprocessor/control/iif.hpp
 -
 boost/preprocessor/logical/bool.hpp
@@ -1812,7 +1812,7 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/expr_if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/expr_if.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/expr_iif.hpp
@@ -1820,11 +1820,11 @@ boost/preprocessor/control/expr_iif.hpp
 boost/preprocessor/logical/bool.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/expr_iif.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/expr_iif.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/if.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -1832,11 +1832,11 @@ boost/preprocessor/control/iif.hpp
 boost/preprocessor/logical/bool.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/iif.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/iif.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/control/while.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/control/while.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -1860,17 +1860,17 @@ boost/preprocessor/control/detail/dmc/while.hpp
 boost/preprocessor/control/detail/while.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/debug/error.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/debug/error.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/dec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/dec.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/detail/auto_rec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/detail/auto_rec.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/detail/dmc/auto_rec.hpp
@@ -1878,63 +1878,63 @@ boost/preprocessor/detail/dmc/auto_rec.hpp
 boost/preprocessor/control/iif.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/detail/check.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/detail/check.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/detail/dmc/auto_rec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/detail/dmc/auto_rec.hpp
 boost/preprocessor/control/iif.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/detail/is_binary.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/detail/is_binary.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/detail/check.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/empty.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/empty.hpp
 boost/preprocessor/facilities/empty.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/enum_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/enum_params.hpp
 boost/preprocessor/repetition/enum_params.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/enum_shifted_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/enum_shifted_params.hpp
 boost/preprocessor/repetition/enum_shifted_params.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/expr_if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/expr_if.hpp
 boost/preprocessor/control/expr_if.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/facilities/empty.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/facilities/empty.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/facilities/identity.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/facilities/identity.hpp
 boost/preprocessor/facilities/empty.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/facilities/overload.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/facilities/overload.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/variadic/size.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/identity.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/identity.hpp
 boost/preprocessor/facilities/identity.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/inc.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/inc.hpp
 boost/preprocessor/arithmetic/inc.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/iterate.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/iterate.hpp
 boost/preprocessor/iteration/iterate.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/iteration/iterate.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/iteration/iterate.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/arithmetic/inc.hpp
@@ -1950,7 +1950,7 @@ boost/preprocessor/slot/slot.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/adt.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/adt.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/detail/is_binary.hpp
@@ -1960,13 +1960,13 @@ boost/preprocessor/logical/compl.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/append.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/append.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/list/fold_right.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/detail/dmc/fold_left.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/detail/dmc/fold_left.hpp
 boost/preprocessor/control/expr_iif.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -1976,7 +1976,7 @@ boost/preprocessor/list/adt.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/detail/edg/fold_left.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/detail/edg/fold_left.hpp
 boost/preprocessor/control/expr_iif.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -1986,7 +1986,7 @@ boost/preprocessor/list/adt.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/detail/edg/fold_right.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/detail/edg/fold_right.hpp
 boost/preprocessor/control/iif.hpp
 -
 boost/preprocessor/list/adt.hpp
@@ -1994,7 +1994,7 @@ boost/preprocessor/list/adt.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/detail/fold_left.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/detail/fold_left.hpp
 boost/preprocessor/control/expr_iif.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -2004,13 +2004,13 @@ boost/preprocessor/list/adt.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/detail/fold_right.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/detail/fold_right.hpp
 boost/preprocessor/list/fold_left.hpp
 -
 boost/preprocessor/list/reverse.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/fold_left.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/fold_left.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/control/while.hpp
@@ -2026,7 +2026,7 @@ boost/preprocessor/list/detail/dmc/fold_left.hpp
 boost/preprocessor/list/detail/fold_left.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/fold_right.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/fold_right.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/control/while.hpp
@@ -2040,7 +2040,7 @@ boost/preprocessor/list/detail/edg/fold_right.hpp
 boost/preprocessor/list/detail/fold_right.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/for_each_i.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/for_each_i.hpp
 boost/preprocessor/arithmetic/inc.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2054,13 +2054,13 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/reverse.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/reverse.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/list/fold_left.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/list/transform.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/list/transform.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/list/fold_right.hpp
@@ -2070,7 +2070,7 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/logical/and.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/logical/and.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/logical/bool.hpp
@@ -2078,21 +2078,21 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/logical/bitand.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/logical/bitand.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/logical/bitand.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/logical/bool.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/logical/bool.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/logical/compl.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/logical/compl.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/punctuation/comma.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/punctuation/comma.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/punctuation/comma_if.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/punctuation/comma_if.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/if.hpp
@@ -2102,13 +2102,13 @@ boost/preprocessor/facilities/empty.hpp
 boost/preprocessor/punctuation/comma.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/punctuation/paren.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/punctuation/paren.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repeat.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repeat.hpp
 boost/preprocessor/repetition/repeat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/detail/dmc/for.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/detail/dmc/for.hpp
 boost/preprocessor/control/expr_iif.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -2118,13 +2118,13 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/detail/edg/for.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/detail/edg/for.hpp
 boost/preprocessor/control/if.hpp
 -
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/detail/for.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/detail/for.hpp
 boost/preprocessor/control/expr_iif.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -2134,13 +2134,13 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/detail/msvc/for.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/detail/msvc/for.hpp
 boost/preprocessor/control/if.hpp
 -
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/enum.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/enum.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2158,7 +2158,7 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/enum_binary_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/enum_binary_params.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2172,7 +2172,7 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/enum_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/enum_params.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/punctuation/comma_if.hpp
@@ -2180,7 +2180,7 @@ boost/preprocessor/punctuation/comma_if.hpp
 boost/preprocessor/repetition/repeat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/enum_shifted_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/enum_shifted_params.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/arithmetic/inc.hpp
@@ -2194,13 +2194,13 @@ boost/preprocessor/punctuation/comma_if.hpp
 boost/preprocessor/repetition/repeat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/enum_trailing_params.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/enum_trailing_params.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/repetition/repeat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/for.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/for.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/debug/error.hpp
@@ -2216,7 +2216,7 @@ boost/preprocessor/repetition/detail/dmc/for.hpp
 boost/preprocessor/repetition/detail/for.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/repetition/repeat.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/repetition/repeat.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2228,11 +2228,11 @@ boost/preprocessor/detail/auto_rec.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/detail/split.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/detail/split.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/elem.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/elem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2240,7 +2240,7 @@ boost/preprocessor/config/config.hpp
 boost/preprocessor/facilities/empty.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/first_n.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/first_n.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/if.hpp
@@ -2252,7 +2252,7 @@ boost/preprocessor/tuple/eat.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/fold_left.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/fold_left.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/cat.hpp
@@ -2268,7 +2268,7 @@ boost/preprocessor/seq/seq.hpp
 boost/preprocessor/seq/size.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/rest_n.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/rest_n.hpp
 boost/preprocessor/arithmetic/inc.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2280,19 +2280,19 @@ boost/preprocessor/seq/detail/split.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/seq.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/seq.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/seq/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/size.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/size.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/seq/subseq.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/seq/subseq.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/seq/first_n.hpp
@@ -2300,23 +2300,23 @@ boost/preprocessor/seq/first_n.hpp
 boost/preprocessor/seq/rest_n.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/slot/detail/def.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/slot/detail/def.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/slot/slot.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/slot/slot.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/slot/detail/def.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/stringize.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/stringize.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/tuple/eat.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/tuple/eat.hpp
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/tuple/elem.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2328,7 +2328,7 @@ boost/preprocessor/tuple/rem.hpp
 boost/preprocessor/variadic/elem.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/tuple/rem.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/tuple/rem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2336,7 +2336,7 @@ boost/preprocessor/config/config.hpp
 boost/preprocessor/facilities/overload.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/tuple/to_list.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/tuple/to_list.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -2346,27 +2346,27 @@ boost/preprocessor/facilities/overload.hpp
 boost/preprocessor/variadic/size.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/variadic/elem.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/variadic/elem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/preprocessor/variadic/size.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/preprocessor/variadic/size.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/static_assert.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/static_assert.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/add_const.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/add_const.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/type_trait_def.hpp
@@ -2374,7 +2374,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/add_pointer.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/add_pointer.hpp
 boost/type_traits/remove_reference.hpp
 -
 boost/type_traits/detail/type_trait_def.hpp
@@ -2382,7 +2382,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/add_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/add_reference.hpp
 boost/type_traits/is_reference.hpp
 -
 boost/detail/workaround.hpp
@@ -2394,7 +2394,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/add_rvalue_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/add_rvalue_reference.hpp
 boost/config.hpp
 -
 boost/type_traits/is_void.hpp
@@ -2406,7 +2406,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/alignment_of.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/alignment_of.hpp
 boost/config.hpp
 -
 cstddef
@@ -2418,7 +2418,7 @@ boost/type_traits/detail/size_t_trait_def.hpp
 boost/type_traits/detail/size_t_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/broken_compiler_spec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/broken_compiler_spec.hpp
 boost/mpl/aux_/lambda_support.hpp
 -
 boost/config.hpp
@@ -2426,13 +2426,13 @@ boost/config.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/config.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/config.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/bool_trait_def.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/template_arity_spec.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -2444,9 +2444,9 @@ boost/mpl/aux_/lambda_support.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/bool_trait_undef.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/bool_trait_undef.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/cv_traits_impl.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/cv_traits_impl.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -2454,27 +2454,27 @@ boost/detail/workaround.hpp
 boost/type_traits/detail/yes_no_type.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/false_result.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/false_result.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/ice_and.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/ice_and.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/ice_eq.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/ice_eq.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/ice_not.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/ice_not.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/ice_or.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/ice_or.hpp
 boost/config.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/is_function_ptr_helper.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/is_function_ptr_helper.hpp
 boost/type_traits/config.hpp
 -
 boost/preprocessor/iterate.hpp
@@ -2484,7 +2484,7 @@ boost/preprocessor/enum_params.hpp
 boost/preprocessor/comma_if.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/is_function_ptr_tester.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/is_function_ptr_tester.hpp
 boost/type_traits/detail/yes_no_type.hpp
 -
 boost/type_traits/config.hpp
@@ -2496,7 +2496,7 @@ boost/preprocessor/enum_params.hpp
 boost/preprocessor/comma_if.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
 boost/config.hpp
 -
 boost/preprocessor/iterate.hpp
@@ -2506,7 +2506,7 @@ boost/preprocessor/enum_params.hpp
 boost/preprocessor/comma_if.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
 boost/type_traits/detail/yes_no_type.hpp
 -
 boost/type_traits/config.hpp
@@ -2518,7 +2518,7 @@ boost/preprocessor/enum_params.hpp
 boost/preprocessor/comma_if.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/size_t_trait_def.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/size_t_trait_def.hpp
 boost/type_traits/detail/template_arity_spec.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -2530,9 +2530,9 @@ boost/mpl/size_t.hpp
 cstddef
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/size_t_trait_undef.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/size_t_trait_undef.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/template_arity_spec.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/template_arity_spec.hpp
 boost/mpl/int.hpp
 -
 boost/mpl/aux_/template_arity_fwd.hpp
@@ -2544,19 +2544,19 @@ boost/mpl/aux_/config/lambda.hpp
 boost/mpl/aux_/config/overload_resolution.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/type_trait_def.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/template_arity_spec.hpp
 -
 boost/mpl/aux_/lambda_support.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/type_trait_undef.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/type_trait_undef.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/wrap.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/wrap.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/detail/yes_no_type.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/detail/yes_no_type.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/has_nothrow_constructor.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/has_nothrow_constructor.hpp
 boost/type_traits/has_trivial_constructor.hpp
 -
 boost/type_traits/detail/bool_trait_def.hpp
@@ -2564,7 +2564,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/has_nothrow_copy.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/has_nothrow_copy.hpp
 boost/type_traits/has_trivial_copy.hpp
 -
 boost/type_traits/detail/bool_trait_def.hpp
@@ -2572,7 +2572,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/has_trivial_constructor.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/has_trivial_constructor.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/intrinsics.hpp
@@ -2586,7 +2586,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/has_trivial_copy.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/has_trivial_copy.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/intrinsics.hpp
@@ -2606,7 +2606,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/ice.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/ice.hpp
 boost/type_traits/detail/yes_no_type.hpp
 -
 boost/type_traits/detail/ice_or.hpp
@@ -2618,7 +2618,7 @@ boost/type_traits/detail/ice_not.hpp
 boost/type_traits/detail/ice_eq.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/integral_constant.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/integral_constant.hpp
 boost/config.hpp
 -
 boost/mpl/bool.hpp
@@ -2626,7 +2626,7 @@ boost/mpl/bool.hpp
 boost/mpl/integral_c.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/intrinsics.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/intrinsics.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/is_same.hpp
@@ -2670,7 +2670,7 @@ boost/type_traits/is_volatile.hpp
 boost/type_traits/is_void.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_abstract.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_abstract.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/static_assert.hpp
@@ -2688,7 +2688,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_arithmetic.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_arithmetic.hpp
 boost/type_traits/is_integral.hpp
 -
 boost/type_traits/is_float.hpp
@@ -2702,7 +2702,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_array.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_array.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/detail/yes_no_type.hpp
@@ -2716,7 +2716,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_base_and_derived.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_base_and_derived.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/is_class.hpp
@@ -2738,7 +2738,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_class.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_class.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/intrinsics.hpp
@@ -2768,7 +2768,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_const.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_const.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -2792,7 +2792,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_convertible.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_convertible.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/detail/yes_no_type.hpp
@@ -2822,7 +2822,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_enum.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_enum.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/add_reference.hpp
@@ -2848,13 +2848,13 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_float.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_float.hpp
 boost/type_traits/detail/bool_trait_def.hpp
 -
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_function.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_function.hpp
 boost/type_traits/is_reference.hpp
 -
 boost/type_traits/detail/false_result.hpp
@@ -2872,7 +2872,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_integral.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_integral.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/bool_trait_def.hpp
@@ -2880,7 +2880,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_lvalue_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_lvalue_reference.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/detail/yes_no_type.hpp
@@ -2892,7 +2892,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_member_function_pointer.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_member_function_pointer.hpp
 boost/type_traits/config.hpp
 -
 boost/detail/workaround.hpp
@@ -2918,7 +2918,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_member_pointer.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_member_pointer.hpp
 boost/type_traits/config.hpp
 -
 boost/detail/workaround.hpp
@@ -2942,7 +2942,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_pod.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_pod.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/is_void.hpp
@@ -2960,7 +2960,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_pointer.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_pointer.hpp
 boost/type_traits/is_member_pointer.hpp
 -
 boost/type_traits/detail/ice_and.hpp
@@ -2986,7 +2986,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_polymorphic.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_polymorphic.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/is_class.hpp
@@ -3000,7 +3000,7 @@ boost/detail/workaround.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_reference.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/is_lvalue_reference.hpp
@@ -3014,7 +3014,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_rvalue_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_rvalue_reference.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/detail/bool_trait_def.hpp
@@ -3022,7 +3022,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_same.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_same.hpp
 boost/type_traits/config.hpp
 -
 boost/type_traits/detail/yes_no_type.hpp
@@ -3036,7 +3036,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_scalar.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_scalar.hpp
 boost/type_traits/is_arithmetic.hpp
 -
 boost/type_traits/is_enum.hpp
@@ -3054,7 +3054,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_union.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_union.hpp
 boost/type_traits/remove_cv.hpp
 -
 boost/type_traits/config.hpp
@@ -3066,7 +3066,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_void.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_void.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/bool_trait_def.hpp
@@ -3074,7 +3074,7 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/is_volatile.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/is_volatile.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -3096,13 +3096,13 @@ boost/type_traits/detail/bool_trait_def.hpp
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/msvc/remove_bounds.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/msvc/remove_bounds.hpp
 boost/type_traits/msvc/typeof.hpp
 -
 boost/type_traits/is_array.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/msvc/remove_const.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/msvc/remove_const.hpp
 boost/type_traits/msvc/typeof.hpp
 -
 boost/type_traits/is_volatile.hpp
@@ -3114,7 +3114,7 @@ boost/type_traits/is_pointer.hpp
 boost/type_traits/is_array.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/msvc/remove_cv.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/msvc/remove_cv.hpp
 boost/type_traits/msvc/typeof.hpp
 -
 boost/type_traits/is_volatile.hpp
@@ -3126,25 +3126,25 @@ boost/type_traits/is_pointer.hpp
 boost/type_traits/is_array.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/msvc/remove_pointer.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/msvc/remove_pointer.hpp
 boost/type_traits/msvc/typeof.hpp
 -
 boost/type_traits/is_pointer.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/msvc/remove_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/msvc/remove_reference.hpp
 boost/type_traits/msvc/typeof.hpp
 -
 boost/type_traits/is_reference.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/msvc/typeof.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/msvc/typeof.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/remove_bounds.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/remove_bounds.hpp
 boost/config.hpp
 -
 cstddef
@@ -3158,7 +3158,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/remove_const.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/remove_const.hpp
 boost/type_traits/is_volatile.hpp
 -
 boost/type_traits/broken_compiler_spec.hpp
@@ -3178,7 +3178,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/remove_cv.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/remove_cv.hpp
 boost/type_traits/broken_compiler_spec.hpp
 -
 boost/type_traits/detail/cv_traits_impl.hpp
@@ -3196,7 +3196,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/remove_pointer.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/remove_pointer.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -3214,7 +3214,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/remove_reference.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/remove_reference.hpp
 boost/type_traits/broken_compiler_spec.hpp
 -
 boost/config.hpp
@@ -3228,7 +3228,7 @@ boost/type_traits/detail/type_trait_def.hpp
 boost/type_traits/detail/type_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/type_traits/type_with_alignment.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/type_traits/type_with_alignment.hpp
 boost/mpl/if.hpp
 -
 boost/preprocessor/list/for_each_i.hpp
@@ -3256,17 +3256,17 @@ cstddef
 boost/type_traits/detail/bool_trait_undef.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/utility/addressof.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/utility/addressof.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/utility/compare_pointees.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/utility/compare_pointees.hpp
 functional
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/utility/detail/in_place_factory_prefix.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/utility/detail/in_place_factory_prefix.hpp
 new
 -
 cstddef
@@ -3290,21 +3290,21 @@ boost/preprocessor/repetition/enum_binary_params.hpp
 boost/preprocessor/repetition/enum_trailing_params.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/utility/detail/in_place_factory_suffix.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/utility/detail/in_place_factory_suffix.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/utility/in_place_factory.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/utility/in_place_factory.hpp
 boost/utility/detail/in_place_factory_prefix.hpp
 -
 boost/utility/detail/in_place_factory_suffix.hpp
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/boost/utility/swap.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/boost/utility/swap.hpp
 algorithm
 -
 cstddef
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/city/city.h
+/graph_assembler/assemblers/spades/src/../ext/include/city/city.h
 stdlib.h
 -
 stdint.h
@@ -3312,7 +3312,7 @@ stdint.h
 utility
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/cppformat/format.h
+/graph_assembler/assemblers/spades/src/../ext/include/cppformat/format.h
 stdint.h
 -
 cassert
@@ -3338,7 +3338,7 @@ iterator
 utility
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/cxxopts/cxxopts.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/cxxopts/cxxopts.hpp
 cstring
 -
 exception
@@ -3360,7 +3360,7 @@ vector
 unicode/unistr.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/../ext/include/libcxx/sort.hpp
+/graph_assembler/assemblers/spades/src/../ext/include/libcxx/sort.hpp
 type_traits
 -
 cstring
@@ -3374,25 +3374,25 @@ iterator
 cstddef
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/key_with_hash.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/key_with_hash.hpp
 storing_traits.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/storing_traits.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/storing_traits.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/perfect_hash_map.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/perfect_hash_map.hpp
 dev_support/openmp_wrapper.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/dev_support/openmp_wrapper.h
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/dev_support/openmp_wrapper.h
 dev_support/path_helper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/dev_support/path_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/dev_support/path_helper.hpp
 io/kmers_io/kmer_iterator.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/io/kmers_io/kmer_iterator.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/io/kmers_io/kmer_iterator.hpp
 data_structures/mph_index/kmer_index.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/data_structures/mph_index/kmer_index.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/data_structures/mph_index/kmer_index.hpp
 key_with_hash.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/key_with_hash.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/key_with_hash.hpp
 values.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/values.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/values.hpp
 storing_traits.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/storing_traits.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/storing_traits.hpp
 vector
 -
 cstdlib
@@ -3400,13 +3400,13 @@ cstdlib
 cstdint
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/storing_traits.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/storing_traits.hpp
 values.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/values.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/values.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/indices/values.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/indices/values.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/base_hash.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/base_hash.hpp
 cstdint
 -
 tuple
@@ -3418,15 +3418,15 @@ cstring
 city/city.h
 -
 common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/common.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/bitpair_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/bitpair_vector.hpp
 common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/common.hpp
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/common.hpp
 cstdint
 -
 iterator
@@ -3436,15 +3436,15 @@ memory
 cassert
 -
 emphf_config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/emphf_config.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/emphf_config.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/emphf_config.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/emphf_config.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/hypergraph.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/hypergraph.hpp
 tuple
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/hypergraph_sorter_seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/hypergraph_sorter_seq.hpp
 cassert
 -
 cstdint
@@ -3462,53 +3462,53 @@ algorithm
 stdexcept
 -
 common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/common.hpp
 hypergraph.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/hypergraph.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/hypergraph.hpp
 dev_support/logger/logger.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/dev_support/logger/logger.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/dev_support/logger/logger.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/kmer_index.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/kmer_index.hpp
 mphf.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/mphf.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/mphf.hpp
 base_hash.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/base_hash.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/base_hash.hpp
 kmer_index_traits.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/kmer_index_traits.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/kmer_index_traits.hpp
 vector
 -
 cmath
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/kmer_index_builder.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/kmer_index_builder.hpp
 kmer_index.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/kmer_index.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/kmer_index.hpp
 io/kmers_io/mmapped_reader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/io/kmers_io/mmapped_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/io/kmers_io/mmapped_reader.hpp
 io/kmers_io/mmapped_writer.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/io/kmers_io/mmapped_writer.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/io/kmers_io/mmapped_writer.hpp
 utils/adt/pointer_iterator.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/utils/adt/pointer_iterator.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/utils/adt/pointer_iterator.hpp
 utils/adt/kmer_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/utils/adt/kmer_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/utils/adt/kmer_vector.hpp
 dev_support/openmp_wrapper.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/dev_support/openmp_wrapper.h
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/dev_support/openmp_wrapper.h
 dev_support/logger/logger.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/dev_support/logger/logger.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/dev_support/logger/logger.hpp
 dev_support/path_helper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/dev_support/path_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/dev_support/path_helper.hpp
 dev_support/memory_limit.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/dev_support/memory_limit.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/dev_support/memory_limit.hpp
 dev_support/file_limit.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/dev_support/file_limit.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/dev_support/file_limit.hpp
 mphf.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/mphf.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/mphf.hpp
 base_hash.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/base_hash.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/base_hash.hpp
 hypergraph.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/hypergraph.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/hypergraph.hpp
 hypergraph_sorter_seq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/hypergraph_sorter_seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/hypergraph_sorter_seq.hpp
 libcxx/sort.hpp
 -
 algorithm
@@ -3516,7 +3516,7 @@ algorithm
 parallel/algorithm
 -
 config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/config.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/config.hpp
 jemalloc/jemalloc.h
 -
 fstream
@@ -3526,77 +3526,77 @@ vector
 cmath
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/kmer_index_traits.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/kmer_index_traits.hpp
 io/kmers_io/mmapped_reader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/io/kmers_io/mmapped_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/io/kmers_io/mmapped_reader.hpp
 mphf.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/mphf.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/mphf.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/mphf.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/mphf.hpp
 random
 -
 bitpair_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/bitpair_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/bitpair_vector.hpp
 ranked_bitpair_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/ranked_bitpair_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/ranked_bitpair_vector.hpp
 dev_support/logger/logger.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/dev_support/logger/logger.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/dev_support/logger/logger.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/ranked_bitpair_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/ranked_bitpair_vector.hpp
 cstdint
 -
 common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/common.hpp
 bitpair_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/mph_index/bitpair_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/mph_index/bitpair_vector.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/nucl.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/nucl.hpp
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/dev_support/verify.hpp
 iostream
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/quality.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/quality.hpp
 string
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/rtseq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/rtseq.hpp
 string
 -
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/dev_support/verify.hpp
 array
 -
 algorithm
 -
 data_structures/sequence/nucl.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
 dev_support/log.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/dev_support/log.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/dev_support/log.hpp
 seq_common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/seq_common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/seq_common.hpp
 seq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/seq.hpp
 simple_seq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/simple_seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/simple_seq.hpp
 cstring
 -
 iostream
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/runtime_k.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/runtime_k.hpp
 data_structures/sequence/sequence.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/sequence.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/sequence.hpp
 data_structures/sequence/seq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/seq.hpp
 data_structures/sequence/simple_seq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/simple_seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/simple_seq.hpp
 data_structures/sequence/rtseq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/rtseq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/rtseq.hpp
 k_range.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/k_range.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/k_range.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/seq.hpp
 string
 -
 array
@@ -3610,17 +3610,17 @@ iostream
 city/city.h
 -
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/dev_support/verify.hpp
 data_structures/sequence/nucl.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
 dev_support/log.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/dev_support/log.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/dev_support/log.hpp
 seq_common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/seq_common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/seq_common.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/seq_common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/seq_common.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/sequence.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/sequence.hpp
 vector
 -
 string
@@ -3630,11 +3630,11 @@ memory
 cstring
 -
 data_structures/sequence/seq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/seq.hpp
 data_structures/sequence/rtseq.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/rtseq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/rtseq.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/sequence_tools.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/sequence_tools.hpp
 sstream
 -
 string
@@ -3642,13 +3642,13 @@ string
 vector
 -
 data_structures/sequence/nucl.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
 data_structures/sequence/sequence.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/sequence.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/sequence.hpp
 utils/levenshtein.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/utils/levenshtein.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/utils/levenshtein.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/simple_seq.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/simple_seq.hpp
 string
 -
 array
@@ -3660,15 +3660,15 @@ cstring
 iostream
 -
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/dev_support/verify.hpp
 data_structures/sequence/nucl.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/data_structures/sequence/nucl.hpp
 dev_support/log.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/dev_support/log.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/dev_support/log.hpp
 seq_common.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/data_structures/sequence/seq_common.hpp
+/graph_assembler/assemblers/spades/src/modules/data_structures/sequence/seq_common.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/file_limit.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/file_limit.hpp
 sys/types.h
 -
 sys/time.h
@@ -3676,29 +3676,29 @@ sys/time.h
 sys/resource.h
 -
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/verify.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/func.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/func.hpp
 functional
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/log.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/log.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/logger/log_writers.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/logger/log_writers.hpp
 dev_support/path_helper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/logger/dev_support/path_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/logger/dev_support/path_helper.hpp
 logger.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/logger/logger.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/logger/logger.hpp
 iostream
 -
 config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/logger/config.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/logger/config.hpp
 iostream
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/logger/logger.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/logger/logger.hpp
 dev_support/perfcounter.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/logger/dev_support/perfcounter.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/logger/dev_support/perfcounter.hpp
 vector
 -
 unordered_map
@@ -3710,9 +3710,9 @@ sstream
 memory
 -
 config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/logger/config.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/logger/config.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/memory_limit.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/memory_limit.hpp
 mach/task.h
 -
 mach/mach.h
@@ -3724,15 +3724,15 @@ sys/time.h
 sys/resource.h
 -
 config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/config.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/config.hpp
 jemalloc/jemalloc.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/openmp_wrapper.h
+/graph_assembler/assemblers/spades/src/modules/dev_support/openmp_wrapper.h
 omp.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/path_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/path_helper.hpp
 sys/types.h
 -
 sys/stat.h
@@ -3746,11 +3746,11 @@ string
 vector
 -
 dev_support/logger/logger.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/logger/logger.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/logger/logger.hpp
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/verify.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/perfcounter.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/perfcounter.hpp
 sys/time.h
 -
 string
@@ -3758,15 +3758,15 @@ string
 cppformat/format.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/segfault_handler.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/segfault_handler.hpp
 dev_support/stacktrace.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/stacktrace.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/stacktrace.hpp
 boost/noncopyable.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/boost/noncopyable.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/boost/noncopyable.hpp
 signal.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/simple_tools.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/simple_tools.hpp
 sys/stat.h
 -
 sys/types.h
@@ -3774,11 +3774,11 @@ sys/types.h
 unistd.h
 -
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/verify.hpp
 io/reads_io/ireader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/io/reads_io/ireader.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/io/reads_io/ireader.hpp
 dev_support/path_helper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/path_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/path_helper.hpp
 memory
 -
 string
@@ -3788,13 +3788,13 @@ set
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/stacktrace.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/stacktrace.hpp
 execinfo.h
 -
 iostream
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/standard_base.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/standard_base.hpp
 memory
 -
 cstdlib
@@ -3842,9 +3842,9 @@ boost/optional.hpp
 boost/noncopyable.hpp
 -
 dev_support/stacktrace.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/stacktrace.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/stacktrace.hpp
 dev_support/path_helper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/path_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/path_helper.hpp
 sys/stat.h
 -
 sys/types.h
@@ -3852,19 +3852,19 @@ sys/types.h
 sys/time.h
 -
 math/xmath.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/math/xmath.h
+/graph_assembler/assemblers/spades/src/modules/dev_support/math/xmath.h
 dev_support/func.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/func.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/func.hpp
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/verify.hpp
 dev_support/logger/logger.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/logger/logger.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/logger/logger.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/verify.hpp
 dev_support/stacktrace.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/dev_support/stacktrace.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/dev_support/stacktrace.hpp
 boost/current_function.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/dev_support/boost/current_function.hpp
+/graph_assembler/assemblers/spades/src/modules/dev_support/boost/current_function.hpp
 sstream
 -
 iostream
@@ -3872,19 +3872,19 @@ iostream
 cassert
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/kmer_iterator.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/kmer_iterator.hpp
 io/kmers_io/mmapped_reader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/io/kmers_io/mmapped_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/io/kmers_io/mmapped_reader.hpp
 string
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/mmapped_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/mmapped_reader.hpp
 utils/adt/pointer_iterator.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/utils/adt/pointer_iterator.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/utils/adt/pointer_iterator.hpp
 utils/adt/array_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/utils/adt/array_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/utils/adt/array_vector.hpp
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/dev_support/verify.hpp
 boost/iterator/iterator_facade.hpp
 -
 fcntl.h
@@ -3906,11 +3906,11 @@ string
 algorithm
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/mmapped_writer.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/mmapped_writer.hpp
 utils/adt/pointer_iterator.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/utils/adt/pointer_iterator.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/utils/adt/pointer_iterator.hpp
 utils/adt/array_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/kmers_io/utils/adt/array_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/io/kmers_io/utils/adt/array_vector.hpp
 string
 -
 fcntl.h
@@ -3926,95 +3926,95 @@ sys/stat.h
 strings.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/paired_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/paired_read.hpp
 single_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/single_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/single_read.hpp
 string
 -
 utility
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/single_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/single_read.hpp
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/dev_support/verify.hpp
 data_structures/sequence/quality.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/data_structures/sequence/quality.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/data_structures/sequence/quality.hpp
 data_structures/sequence/sequence.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/data_structures/sequence/sequence.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/data_structures/sequence/sequence.hpp
 data_structures/sequence/nucl.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/data_structures/sequence/nucl.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/data_structures/sequence/nucl.hpp
 data_structures/sequence/sequence_tools.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/data_structures/sequence/sequence_tools.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/data_structures/sequence/sequence_tools.hpp
 dev_support/simple_tools.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads/dev_support/simple_tools.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads/dev_support/simple_tools.hpp
 string
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/binary_streams.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/binary_streams.hpp
 fstream
 -
 dev_support/verify.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/dev_support/verify.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/dev_support/verify.hpp
 ireader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/ireader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/ireader.hpp
 io/reads/single_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads/single_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads/single_read.hpp
 io/reads/paired_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads/paired_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads/paired_read.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/careful_filtering_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/careful_filtering_reader_wrapper.hpp
 io/reads_io/delegating_reader_wrapper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads_io/delegating_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads_io/delegating_reader_wrapper.hpp
 pipeline/library.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/pipeline/library.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/pipeline/library.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/converting_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/converting_reader_wrapper.hpp
 read_stream_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/read_stream_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/read_stream_vector.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/delegating_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/delegating_reader_wrapper.hpp
 ireader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/ireader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/ireader.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/file_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/file_reader.hpp
 ireader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/ireader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/ireader.hpp
 io/reads/single_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads/single_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads/single_read.hpp
 parser.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/parser.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/parser.hpp
 dev_support/path_helper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/dev_support/path_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/dev_support/path_helper.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io_helper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io_helper.hpp
 read_stream_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/read_stream_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/read_stream_vector.hpp
 io/reads/single_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads/single_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads/single_read.hpp
 io/reads/paired_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads/paired_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads/paired_read.hpp
 file_reader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/file_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/file_reader.hpp
 paired_readers.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/paired_readers.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/paired_readers.hpp
 binary_streams.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/binary_streams.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/binary_streams.hpp
 multifile_reader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/multifile_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/multifile_reader.hpp
 converting_reader_wrapper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/converting_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/converting_reader_wrapper.hpp
 careful_filtering_reader_wrapper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/careful_filtering_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/careful_filtering_reader_wrapper.hpp
 rc_reader_wrapper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/rc_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/rc_reader_wrapper.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/ireader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/ireader.hpp
 boost/noncopyable.hpp
 -
 dev_support/standard_base.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/dev_support/standard_base.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/dev_support/standard_base.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/mpmc_bounded.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/mpmc_bounded.hpp
 ciso646
 -
 atomic
@@ -4026,67 +4026,67 @@ cstring
 unistd.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/multifile_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/multifile_reader.hpp
 read_stream_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/read_stream_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/read_stream_vector.hpp
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/orientation.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/orientation.hpp
 pipeline/library.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/pipeline/library.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/pipeline/library.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/paired_readers.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/paired_readers.hpp
 string
 -
 ireader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/ireader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/ireader.hpp
 io/reads/paired_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads/paired_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads/paired_read.hpp
 file_reader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/file_reader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/file_reader.hpp
 orientation.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/orientation.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/orientation.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/parser.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/parser.hpp
 string
 -
 io/reads/single_read.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads/single_read.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads/single_read.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/rc_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/rc_reader_wrapper.hpp
 boost/noncopyable.hpp
 -
 read_stream_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/read_stream_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/read_stream_vector.hpp
 delegating_reader_wrapper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/delegating_reader_wrapper.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/delegating_reader_wrapper.hpp
 orientation.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/orientation.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/orientation.hpp
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/read_processor.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/read_processor.hpp
 io/reads_io/mpmc_bounded.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/io/reads_io/mpmc_bounded.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/io/reads_io/mpmc_bounded.hpp
 dev_support/openmp_wrapper.h
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/dev_support/openmp_wrapper.h
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/dev_support/openmp_wrapper.h
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/read_stream_vector.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/read_stream_vector.hpp
 ireader.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/io/reads_io/ireader.hpp
+/graph_assembler/assemblers/spades/src/modules/io/reads_io/ireader.hpp
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/math/xmath.h
+/graph_assembler/assemblers/spades/src/modules/math/xmath.h
 limits
 -
 cmath
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/pipeline/library.hpp
+/graph_assembler/assemblers/spades/src/modules/pipeline/library.hpp
 utils/adt/chained_iterator.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/pipeline/utils/adt/chained_iterator.hpp
+/graph_assembler/assemblers/spades/src/modules/pipeline/utils/adt/chained_iterator.hpp
 utils/adt/iterator_range.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/modules/pipeline/utils/adt/iterator_range.hpp
+/graph_assembler/assemblers/spades/src/modules/pipeline/utils/adt/iterator_range.hpp
 boost/iterator/iterator_facade.hpp
 -
 string
@@ -4094,23 +4094,23 @@ string
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/main.cpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/main.cpp
 dev_support/logger/log_writers.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/dev_support/logger/log_writers.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/dev_support/logger/log_writers.hpp
 dev_support/segfault_handler.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/dev_support/segfault_handler.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/dev_support/segfault_handler.hpp
 data_structures/indices/perfect_hash_map.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/data_structures/indices/perfect_hash_map.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/data_structures/indices/perfect_hash_map.hpp
 data_structures/sequence/runtime_k.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/data_structures/sequence/runtime_k.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/data_structures/sequence/runtime_k.hpp
 data_structures/mph_index/kmer_index_builder.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/data_structures/mph_index/kmer_index_builder.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/data_structures/mph_index/kmer_index_builder.hpp
 io/reads_io/read_processor.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/io/reads_io/read_processor.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/io/reads_io/read_processor.hpp
 io/reads_io/io_helper.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/io/reads_io/io_helper.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/io/reads_io/io_helper.hpp
 version.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects/mph_test/version.hpp
+/graph_assembler/assemblers/spades/src/projects/mph_test/version.hpp
 cxxopts/cxxopts.hpp
 -
 sys/types.h
@@ -4120,7 +4120,7 @@ sys/stat.h
 string
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/adt/array_vector.hpp
+/graph_assembler/assemblers/spades/src/utils/adt/array_vector.hpp
 algorithm
 -
 memory
@@ -4132,7 +4132,7 @@ cstring
 cstddef
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/adt/chained_iterator.hpp
+/graph_assembler/assemblers/spades/src/utils/adt/chained_iterator.hpp
 boost/iterator/iterator_facade.hpp
 -
 iterator
@@ -4140,21 +4140,21 @@ iterator
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/adt/iterator_range.hpp
+/graph_assembler/assemblers/spades/src/utils/adt/iterator_range.hpp
 utility
 -
 iterator
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/adt/kmer_vector.hpp
+/graph_assembler/assemblers/spades/src/utils/adt/kmer_vector.hpp
 array_vector.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/adt/array_vector.hpp
+/graph_assembler/assemblers/spades/src/utils/adt/array_vector.hpp
 config.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/adt/config.hpp
+/graph_assembler/assemblers/spades/src/utils/adt/config.hpp
 jemalloc/jemalloc.h
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/adt/pointer_iterator.hpp
+/graph_assembler/assemblers/spades/src/utils/adt/pointer_iterator.hpp
 iterator
 -
 algorithm
@@ -4166,13 +4166,13 @@ stdexcept
 vector
 -
 
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/levenshtein.hpp
+/graph_assembler/assemblers/spades/src/utils/levenshtein.hpp
 string
 -
 vector
 -
 dev_support/simple_tools.hpp
-/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/utils/dev_support/simple_tools.hpp
+/graph_assembler/assemblers/spades/src/utils/dev_support/simple_tools.hpp
 
 include/config.hpp
 

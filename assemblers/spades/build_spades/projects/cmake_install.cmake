@@ -1,8 +1,8 @@
-# Install script for directory: /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/projects
+# Install script for directory: /graph_assembler/assemblers/spades/src/projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0")
+  set(CMAKE_INSTALL_PREFIX "/graph_assembler/assemblers/spades")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,15 +27,20 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/projects/spades/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/projects/hammer/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/projects/ionhammer/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/projects/dipspades/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/projects/corrector/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/projects/scaffold_correction/cmake_install.cmake")
-  include("/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/build_spades/projects/mph_test/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/projects/spades/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/projects/hammer/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/projects/ionhammer/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/projects/dipspades/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/projects/corrector/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/projects/scaffold_correction/cmake_install.cmake")
+  include("/graph_assembler/assemblers/spades/build_spades/projects/mph_test/cmake_install.cmake")
 
 endif()
 

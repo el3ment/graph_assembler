@@ -1,8 +1,8 @@
-# Install script for directory: /Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline
+# Install script for directory: /graph_assembler/assemblers/spades/src/spades_pipeline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0")
+  set(CMAKE_INSTALL_PREFIX "/graph_assembler/assemblers/spades")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,39 +27,44 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spades/spades_pipeline" TYPE FILE FILES
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/hammer_logic.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/process_cfg.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/spades_logic.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/dipspades_logic.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/corrector_logic.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/support.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/options_storage.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/lucigen_nxmate.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/hammer_logic.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/process_cfg.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/spades_logic.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/dipspades_logic.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/corrector_logic.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/support.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/options_storage.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/lucigen_nxmate.py"
     )
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spades/spades_pipeline/truspades" TYPE FILE FILES
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/reference_construction.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/moleculo_filter_contigs.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/break_by_coverage.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/moleculo_postprocessing.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/barcode_extraction.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/generate_quality.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/id_generation.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/launch_options.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/truspades/string_dist_utils.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/reference_construction.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/moleculo_filter_contigs.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/break_by_coverage.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/moleculo_postprocessing.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/barcode_extraction.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/generate_quality.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/id_generation.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/launch_options.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/truspades/string_dist_utils.py"
     )
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spades/spades_pipeline/common" TYPE FILE FILES
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/common/alignment.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/common/parallel_launcher.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/common/sam_parser.py"
-    "/Users/pjtatlow/projects/bio365/graph_assembler/assemblers/SPAdes-3.9.0/src/spades_pipeline/common/SeqIO.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/common/alignment.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/common/parallel_launcher.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/common/sam_parser.py"
+    "/graph_assembler/assemblers/spades/src/spades_pipeline/common/SeqIO.py"
     )
 endif()
 

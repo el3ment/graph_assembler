@@ -21,7 +21,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/jemalloc.dir/rtree.c.o"
   "CMakeFiles/jemalloc.dir/tcache.c.o"
   "CMakeFiles/jemalloc.dir/util.c.o"
-  "CMakeFiles/jemalloc.dir/zone.c.o"
   "libjemalloc.pdb"
   "libjemalloc.a"
 )

@@ -1,0 +1,30 @@
+Command line: assemblers/spades/bin/spades.py	-k	27	-s	/graph_assembler/data/example.solution.fasta	--only-assembler	-o	/graph_assembler/assemblers/spadesOutput/example.solution/27	-t	2	-m	2	
+
+System information:
+  SPAdes version: 3.9.0
+  Python version: 2.7.12
+  OS: Linux-4.4.20-moby-x86_64-with-Ubuntu-16.04-xenial
+
+Output dir: /graph_assembler/assemblers/spadesOutput/example.solution/27
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: single
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: not specified
+      single reads: ['/graph_assembler/data/example.solution.fasta']
+Assembly parameters:
+  k: [27]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /graph_assembler/assemblers/spadesOutput/example.solution/27/tmp
+  Threads: 2
+  Memory limit (in Gb): 2
+

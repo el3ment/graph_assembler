@@ -1,0 +1,121 @@
+Command line: assemblers/spades/bin/spades.py	-k	27	-s	/graph_assembler/data/example.solution.fasta	--only-assembler	-o	/graph_assembler/assemblers/spadesOutput/example.solution/27	-t	2	-m	2	
+
+System information:
+  SPAdes version: 3.9.0
+  Python version: 2.7.12
+  OS: Linux-4.4.20-moby-x86_64-with-Ubuntu-16.04-xenial
+
+Output dir: /graph_assembler/assemblers/spadesOutput/example.solution/27
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: single
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: not specified
+      single reads: ['/graph_assembler/data/example.solution.fasta']
+Assembly parameters:
+  k: [27]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /graph_assembler/assemblers/spadesOutput/example.solution/27/tmp
+  Threads: 2
+  Memory limit (in Gb): 2
+
+
+======= SPAdes pipeline started. Log can be found here: /graph_assembler/assemblers/spadesOutput/example.solution/27/spades.log
+
+
+===== Assembling started.
+
+
+== Running assembler: K27
+
+  0:00:00.000     4M / 4M    INFO    General                 (main.cpp                  :  75)   Loading config from /graph_assembler/assemblers/spadesOutput/example.solution/27/K27/configs/config.info
+  0:00:00.000     4M / 4M    INFO    General                 (memory_limit.hpp          :  47)   Memory limit set to 2 Gb
+  0:00:00.000     4M / 4M    INFO    General                 (main.cpp                  :  88)   Starting SPAdes, built from refs/heads/master, git revision 437fb35bb902e3890e120debbd3a3aacaabbf8d0
+  0:00:00.000     4M / 4M    INFO    General                 (main.cpp                  :  89)   Maximum k-mer length: 128
+  0:00:00.000     4M / 4M    INFO    General                 (main.cpp                  :  90)   Assembling dataset (/graph_assembler/assemblers/spadesOutput/example.solution/27/dataset.info) with K=27
+  0:00:00.000     4M / 4M    INFO    General                 (launch.hpp                :  29)   SPAdes started
+  0:00:00.000     4M / 4M    INFO    General                 (launch.hpp                :  36)   Starting from stage: construction
+  0:00:00.000     4M / 4M    INFO    General                 (launch.hpp                :  39)   Two-step RR enabled: 0
+  0:00:00.000     4M / 4M    INFO    General                 (launch.hpp                :  58)   Will need read mapping, kmer mapper will be attached
+  0:00:00.000     4M / 4M    INFO   StageManager             (stage.cpp                 : 126)   STAGE == Construction
+  0:00:00.000     4M / 4M    INFO    General                 (read_converter.hpp        :  78)   Converting reads to binary format for library #0 (takes a while)
+  0:00:00.000     4M / 4M    INFO    General                 (read_converter.hpp        :  79)   Converting paired reads
+  0:00:00.081    68M / 100M  INFO    General                 (binary_converter.hpp      : 159)   0 reads written
+  0:00:00.084     4M / 100M  INFO    General                 (read_converter.hpp        :  88)   Converting single reads
+  0:00:00.210   132M / 196M  INFO    General                 (binary_converter.hpp      : 159)   1 reads written
+  0:00:00.217     4M / 196M  INFO    General                 (graph_construction.hpp    : 120)   Constructing DeBruijn graph for k=27
+  0:00:00.217     4M / 196M  INFO    General                 (kmer_splitters.hpp        : 130)   Splitting kmer instances into 4 buckets. This might take a while.
+  0:00:00.217     4M / 196M  INFO    General                 (file_limit.hpp            :  30)   Open file limit set to 1048576
+  0:00:00.217     4M / 196M  INFO    General                 (kmer_index_builder.hpp    : 105)   Memory available for splitting buffers: 0.332682 Gb
+  0:00:00.217     4M / 196M  INFO    General                 (kmer_index_builder.hpp    : 113)   Using cell size of 11162965
+  0:00:00.219   776M / 868M  INFO    General                 (kmer_splitters.hpp        : 160)   Adding contigs from previous K
+  0:00:00.219   776M / 868M  INFO    General                 (kmer_splitters.hpp        : 171)   Used 2 reads. Maximum read length 137
+  0:00:00.219   776M / 868M  INFO    General                 (kmer_splitters.hpp        : 172)   Average read length 137
+  0:00:00.219   776M / 868M  INFO    General                 (kmer_index_builder.hpp    : 232)   Starting k-mer counting.
+  0:00:00.221   776M / 868M  INFO    General                 (kmer_index_builder.hpp    : 238)   K-mer counting done. There are 110 kmers in total.
+  0:00:00.221   776M / 868M  INFO    General                 (kmer_index_builder.hpp    : 240)   Merging temporary buckets.
+  0:00:00.221   776M / 868M  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 346)   Building kmer index
+  0:00:00.221   776M / 868M  INFO    General                 (kmer_splitters.hpp        : 282)   Splitting kmer instances into 32 buckets. This might take a while.
+  0:00:00.221   776M / 868M  INFO    General                 (file_limit.hpp            :  30)   Open file limit set to 1048576
+  0:00:00.221   776M / 868M  INFO    General                 (kmer_index_builder.hpp    : 105)   Memory available for splitting buffers: 0.207031 Gb
+  0:00:00.221   776M / 868M  INFO    General                 (kmer_index_builder.hpp    : 113)   Using cell size of 868352
+  0:00:00.226     1G / 1G    INFO    General                 (kmer_splitters.hpp        : 306)   Used 110 kmers.
+  0:00:00.226     1G / 1G    INFO    General                 (kmer_index_builder.hpp    : 232)   Starting k-mer counting.
+  0:00:00.231     1G / 1G    INFO    General                 (kmer_index_builder.hpp    : 238)   K-mer counting done. There are 111 kmers in total.
+  0:00:00.231     1G / 1G    INFO    General                 (kmer_index_builder.hpp    : 240)   Merging temporary buckets.
+  0:00:00.235     1G / 1G    INFO   K-mer Index Building     (kmer_index_builder.hpp    : 355)   Building perfect hash indices
+  0:00:00.236     1G / 1G    INFO    General                 (kmer_index_builder.hpp    : 256)   Merging final buckets.
+  0:00:00.238     1G / 1G    INFO   K-mer Index Building     (kmer_index_builder.hpp    : 401)   Index built. Total 256 bytes occupied (18.4505 bits per kmer).
+  0:00:00.238     1G / 1G    INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  85)   Building k-mer extensions from k+1-mers
+  0:00:00.239     1G / 1G    INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  89)   Building k-mer extensions from k+1-mers finished.
+  0:00:00.242     8M / 1G    INFO    General                 (graph_construction.hpp    : 136)   Condensing graph
+  0:00:00.242     8M / 1G    INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 330)   Extracting unbranching paths
+  0:00:00.244     8M / 1G    INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 344)   Extracting unbranching paths finished. 2 sequences extracted
+  0:00:00.244     8M / 1G    INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 304)   Collecting perfect loops
+  0:00:00.244     8M / 1G    INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 319)   Collecting perfect loops finished. 0 loops collected
+  0:00:00.245     8M / 1G    INFO    General                 (graph_construction.hpp    : 141)   Building index with from graph
+  0:00:00.245     8M / 1G    INFO   K-mer Index Building     (kmer_index_builder.hpp    : 346)   Building kmer index
+  0:00:00.245     8M / 1G    INFO    General                 (kmer_splitters.hpp        : 213)   Splitting kmer instances into 16 buckets. This might take a while.
+  0:00:00.245     8M / 1G    INFO    General                 (file_limit.hpp            :  30)   Open file limit set to 1048576
+  0:00:00.245     8M / 1G    INFO    General                 (kmer_index_builder.hpp    : 105)   Memory available for splitting buffers: 0.664062 Gb
+  0:00:00.245     8M / 1G    INFO    General                 (kmer_index_builder.hpp    : 113)   Using cell size of 4194304
+  0:00:00.248   584M / 1G    INFO    General                 (kmer_splitters.hpp        : 229)   Used 2 sequences.
+  0:00:00.248   584M / 1G    INFO    General                 (kmer_index_builder.hpp    : 232)   Starting k-mer counting.
+  0:00:00.250   584M / 1G    INFO    General                 (kmer_index_builder.hpp    : 238)   K-mer counting done. There are 110 kmers in total.
+  0:00:00.250   584M / 1G    INFO    General                 (kmer_index_builder.hpp    : 240)   Merging temporary buckets.
+  0:00:00.252   584M / 1G    INFO   K-mer Index Building     (kmer_index_builder.hpp    : 355)   Building perfect hash indices
+  0:00:00.252   584M / 1G    INFO    General                 (kmer_index_builder.hpp    : 256)   Merging final buckets.
+  0:00:00.254   584M / 1G    INFO   K-mer Index Building     (kmer_index_builder.hpp    : 401)   Index built. Total 256 bytes occupied (18.6182 bits per kmer).
+  0:00:00.254     8M / 1G    INFO    General                 (edge_index_builders.hpp   :  27)   Collecting k-mer coverage information from graph, this takes a while.
+  0:00:00.255     8M / 1G    INFO    General                 (edge_index.hpp            :  91)   Index refilled
+  0:00:00.255     8M / 1G    INFO    General                 (graph_construction.hpp    : 173)   Filling coverage index
+  0:00:00.255     8M / 1G    INFO    General                 (edge_index_builders.hpp   : 105)   Collecting k-mer coverage information from reads, this takes a while.
+  0:00:00.260     8M / 1G    INFO    General                 (graph_construction.hpp    : 175)   Filling coverage and flanking coverage from index
+  0:00:00.260     8M / 1G    INFO    General                 (construction.cpp          :  30)   Figured out: read length = 137
+  0:00:00.260     8M / 1G    INFO   StageManager             (stage.cpp                 : 126)   STAGE == EC Threshold Finding
+=== Stack Trace ===
+/graph_assembler/assemblers/spades/bin/spades(_ZN9cov_model17KMerCoverageModel3FitEv+0xb7) [0x760ce7]
+/graph_assembler/assemblers/spades/bin/spades(_ZN14debruijn_graph17GenomicInfoFiller3runERNS_10graph_packINS_13DeBruijnGraphEEEPKc+0x1cb) [0x72803b]
+/graph_assembler/assemblers/spades/bin/spades(_ZN6spades12StageManager3runERN14debruijn_graph10graph_packINS1_13DeBruijnGraphEEEPKc+0xf9) [0x700219]
+/graph_assembler/assemblers/spades/bin/spades(_ZN6spades15assemble_genomeEv+0xe50) [0x556640]
+/graph_assembler/assemblers/spades/bin/spades(main+0x397) [0x550a67]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7fc60dc54830]
+/graph_assembler/assemblers/spades/bin/spades(_start+0x29) [0x554c69]
+Verification of expression 'cov_.size() > 10' failed in function 'void cov_model::KMerCoverageModel::Fit()'. In file '/graph_assembler/assemblers/spades/src/modules/math/kmer_coverage_model.cpp' on line 186. Message 'Invalid kmer coverage histogram, make sure that the coverage is indeed uniform'.
+Verification of expression 'cov_.size() > 10' failed in function 'void cov_model::KMerCoverageModel::Fit()'. In file '/graph_assembler/assemblers/spades/src/modules/math/kmer_coverage_model.cpp' on line 186. Message 'Invalid kmer coverage histogram, make sure that the coverage is indeed uniform'.
+spades: /graph_assembler/assemblers/spades/src/modules/math/kmer_coverage_model.cpp:186: void cov_model::KMerCoverageModel::Fit(): Assertion `cov_.size() > 10' failed.
+
+
+== Error ==  system call for: "['/graph_assembler/assemblers/spades/bin/spades', '/graph_assembler/assemblers/spadesOutput/example.solution/27/K27/configs/config.info']" finished abnormally, err code: -6
+
+In case you have troubles running SPAdes, you can write to spades.support@bioinf.spbau.ru
+Please provide us with params.txt and spades.log files from the output directory.

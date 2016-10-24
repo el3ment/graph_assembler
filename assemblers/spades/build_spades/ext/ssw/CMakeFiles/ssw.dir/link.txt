@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libssw.a  CMakeFiles/ssw.dir/ssw.c.o CMakeFiles/ssw.dir/ssw_cpp.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libssw.a
+/usr/bin/ar qc libssw.a  CMakeFiles/ssw.dir/ssw.c.o CMakeFiles/ssw.dir/ssw_cpp.cpp.o
+/usr/bin/ranlib libssw.a

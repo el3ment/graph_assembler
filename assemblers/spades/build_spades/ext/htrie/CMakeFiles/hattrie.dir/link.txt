@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libhattrie.a  CMakeFiles/hattrie.dir/ahtable.c.o CMakeFiles/hattrie.dir/hat-trie.c.o CMakeFiles/hattrie.dir/misc.c.o CMakeFiles/hattrie.dir/murmurhash3.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libhattrie.a
+/usr/bin/ar qc libhattrie.a  CMakeFiles/hattrie.dir/ahtable.c.o CMakeFiles/hattrie.dir/hat-trie.c.o CMakeFiles/hattrie.dir/misc.c.o CMakeFiles/hattrie.dir/murmurhash3.c.o
+/usr/bin/ranlib libhattrie.a
