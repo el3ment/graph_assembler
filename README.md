@@ -1,17 +1,18 @@
-How to run the code:
-1.) Place the dataset you want to use in the "data" folder
-2.) Run in terminal:
-    $ manualMain.py dataset k threshold
+#How to run the code:
+1. Place the dataset you want to use in the "data" folder
+2. Run in terminal:
 
-This will print to terminal:
-Original Number of Reads
-Largest Read Size
-Average Contig Size
-Total Number of Contigs
-Largest Contig Size
-N50
-Best Threshold
-Best k
+        $ manualMain.py dataset k threshold
+
+####This will print to terminal:
+1. Original Number of Reads
+2. Largest Read Size
+3. Average Contig Size
+4. Total Number of Contigs
+5. Largest Contig Size
+6. N50
+7. Best Threshold
+8. Best k
 
 And the contigs will be saved to a file called dataset.manual.contigs.txt in the "data" folder.
 
@@ -21,7 +22,7 @@ And the contigs will be saved to a file called dataset.manual.contigs.txt in the
 
 
 
-de Bruijn Graph Assembler Project
+#de Bruijn Graph Assembler Project
 
 As a group, you will be creating a de Bruijn graph assembler and will evaluate its performance on several datasets (including real data). Completion of the Contig Reconstruction problem is recommended as it takes care of several aspects of the assembler project. Working with your groups will be key to completing all the necessary tasks for this project and not becoming overwhelmed. Start early as some of the datasets can take a long time (hours or days) to run.
 
