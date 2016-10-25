@@ -119,7 +119,7 @@ Best k: 31
 
 "real.error.large.fasta"
 ------------------------------
-Original Number of Reads: 4675 (Best Contigs)
+Original Number of Reads: 4675
 Largest Read Size: 100
 Average Contig Size: 138.059907834
 Total Number of Contigs: 217
@@ -145,3 +145,12 @@ Largest Contig Size: 1395
 N50: 203
 Best Thresholds: 1
 Best k: 33
+------------------------------
+Original Number of Reads: 4675 (Best Contigs)
+Largest Read Size: 100
+Average Contig Size: 72.1351351351
+Total Number of Contigs: 370
+Largest Contig Size: 1983
+N50: 384
+Best Thresholds: 5
+Best k: 15
