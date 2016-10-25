@@ -1,4 +1,5 @@
 #How to run the code:
+###Manual picking of k and threshold
 1. Place the dataset you want to use in the "data" folder
 2. Run in terminal:
 
@@ -16,6 +17,27 @@
 
 And the contigs will be saved to a file called dataset.manual.contigs.txt in the "data" folder.
 
+###Using the Otsu method to find threshold and searching for the optimal k
+1. Place the dataset you want to use in the "data" foler
+2. Run in terminal:
+
+        $ main.py dataset start
+
+This will test k from the range of the start that you indicated to the largest read size.
+It will use the Otsu method (https://en.wikipedia.org/wiki/Otsu%27s_method) to find the best threshold for each k.
+It will find the best combination of k and threshold for the dataset to optimize our metrics.
+
+####This will print to terminal:
+1. Original Number of Reads
+2. Largest Read Size
+3. Average Contig Size
+4. Total Number of Contigs
+5. Largest Contig Size
+6. N50
+7. Best Threshold
+8. Best k
+
+And the contigs will be saved to a file called dataset.contigs.txt in the "data" folder.
 
 
 
